@@ -1,0 +1,28 @@
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import { LanguageProvider } from './contexts/LanguageContext';
+import Layout from './components/Layout';
+import Home from './pages/Home';
+import Tracking from './pages/Tracking';
+import Timeline from './pages/Timeline';
+import About from './pages/About';
+import Detail from './pages/Detail';
+
+function App() {
+  return (
+    <LanguageProvider>
+      <HashRouter>
+        <Layout>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/tracking" element={<Tracking />} />
+            <Route path="/timeline" element={<Timeline />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/detail/:id" element={<Detail />} />
+          </Routes>
+        </Layout>
+      </HashRouter>
+    </LanguageProvider>
+  );
+}
+
+export default App;

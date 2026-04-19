@@ -1,0 +1,612 @@
+{
+  "items": [
+    {
+      "id": "sora-report",
+      "category": "paper",
+      "title": "Video Generation Models as World Simulators",
+      "title_cn": "视频生成模型作为世界模拟器",
+      "description": "OpenAI's technical report on Sora, exploring how large-scale video generation models can simulate physical worlds. Discusses the potential and limitations of using video generation as a path to world simulation.",
+      "description_cn": "OpenAI关于Sora的技术报告，探讨大规模视频生成模型如何模拟物理世界。讨论了使用视频生成作为世界模拟路径的潜力和局限性。",
+      "authors": [
+        "OpenAI"
+      ],
+      "date": "2024-02-15",
+      "venue": "OpenAI Technical Report",
+      "venue_cn": "OpenAI技术报告",
+      "tags": [
+        "Video Generation",
+        "World Models",
+        "Diffusion"
+      ],
+      "tags_cn": [
+        "视频生成",
+        "世界模型",
+        "扩散模型"
+      ],
+      "status": "released",
+      "url": "https://openai.com/research/video-generation-models-as-world-simulators",
+      "citations": 0,
+      "arxivUrl": ""
+    },
+    {
+      "id": "world-models-paper",
+      "category": "paper",
+      "title": "World Models",
+      "title_cn": "世界模型",
+      "description": "Foundational paper by Ha and Schmidhuber introducing the concept of agents that learn models of their environments (world models) and use them to plan and imagine in a compressed latent space.",
+      "description_cn": "Ha和Schmidhuber的基础论文，介绍了智能体学习环境模型（世界模型）并使用它们在压缩的潜在空间中进行规划和想象的概念。",
+      "authors": [
+        "David Ha",
+        "Jürgen Schmidhuber"
+      ],
+      "date": "2018-03-01",
+      "venue": "NeurIPS 2018 (oral presentation)",
+      "venue_cn": "NeurIPS 2018（口头报告）",
+      "tags": [
+        "World Models",
+        "RL",
+        "Generative Models"
+      ],
+      "tags_cn": [
+        "世界模型",
+        "强化学习",
+        "生成模型"
+      ],
+      "status": "released",
+      "url": "https://doi.org/10.5281/zenodo.1207631",
+      "citations": 1800,
+      "arxivUrl": "https://arxiv.org/abs/1803.10122"
+    },
+    {
+      "id": "dreamer-paper",
+      "category": "paper",
+      "title": "Dream to Control: Learning Behaviors by Latent Imagination",
+      "title_cn": "Dream to Control：通过潜在想象学习行为",
+      "description": "Introduces Dreamer, a reinforcement learning agent that learns a world model from experience and performs planning in the learned latent space to solve long-horizon tasks from pixels.",
+      "description_cn": "介绍了Dreamer，一个强化学习智能体，从经验中学习世界模型并在学习到的潜在空间中进行规划，以解决从像素出发的长时程任务。",
+      "authors": [
+        "Danijar Hafner",
+        "Timothy Lillicrap",
+        "Jimmy Ba",
+        "Mohammad Norouzi"
+      ],
+      "date": "2019-12-01",
+      "venue": "ICLR 2020",
+      "venue_cn": "ICLR 2020",
+      "tags": [
+        "RL",
+        "World Models",
+        "Planning"
+      ],
+      "tags_cn": [
+        "强化学习",
+        "世界模型",
+        "规划"
+      ],
+      "status": "released",
+      "url": "https://danijar.com/project/dreamer/",
+      "citations": 1200,
+      "arxivUrl": "https://arxiv.org/abs/1912.01603"
+    },
+    {
+      "id": "dreamerv3-paper",
+      "category": "paper",
+      "title": "Mastering Diverse Domains through World Models",
+      "title_cn": "通过世界模型掌握多样领域",
+      "description": "DreamerV3 achieves strong performance across diverse domains from pixel inputs, mastering tasks from continuous control to discrete actions without domain-specific tuning.",
+      "description_cn": "DreamerV3在从像素输入的多样领域上实现强大性能，掌握从连续控制到离散动作的任务，无需领域特定调优。",
+      "authors": [
+        "Danijar Hafner",
+        "Jurgis Pasukonis",
+        "Jimmy Ba",
+        "Timothy Lillicrap"
+      ],
+      "date": "2023-01-01",
+      "venue": "Nature",
+      "venue_cn": "Nature",
+      "tags": [
+        "RL",
+        "World Models",
+        "Generalization"
+      ],
+      "tags_cn": [
+        "强化学习",
+        "世界模型",
+        "泛化"
+      ],
+      "status": "released",
+      "url": "https://doi.org/10.1038/s41586-025-08744-2",
+      "citations": 500,
+      "arxivUrl": "https://arxiv.org/abs/2301.04104"
+    },
+    {
+      "id": "gato-paper",
+      "category": "paper",
+      "title": "A Generalist Agent",
+      "title_cn": "通用智能体",
+      "description": "DeepMind's paper introducing Gato, a single neural network agent that can perform hundreds of different tasks across diverse environments using the same set of weights.",
+      "description_cn": "DeepMind的论文介绍了Gato，一个单一神经网络智能体，可以使用同一组权重在多样环境中执行数百种不同任务。",
+      "authors": [
+        "Scott Reed",
+        "Konrad Zolna",
+        "Emilio Parisotto",
+        "Sergio Gomez Colmenarejo",
+        "Alexander Novikov",
+        "Gabriel Barth-Maron",
+        "Mai Gimenez",
+        "Yury Sulsky",
+        "Jackie Kay",
+        "Jost Tobias Springenberg",
+        "Tom Eccles",
+        "Jake Bruce",
+        "Ali Razavi",
+        "Ashley Edwards",
+        "Nicolas Heess",
+        "Yutian Chen",
+        "Raia Hadsell",
+        "Oriol Vinyals",
+        "Mahyar Bordbar",
+        "Nando de Freitas"
+      ],
+      "date": "2022-05-01",
+      "venue": "Nature",
+      "venue_cn": "Nature",
+      "tags": [
+        "Generalist Agent",
+        "RL",
+        "Multimodal"
+      ],
+      "tags_cn": [
+        "通用智能体",
+        "强化学习",
+        "多模态"
+      ],
+      "status": "released",
+      "url": "https://doi.org/10.1038/s41586-025-08744-2",
+      "citations": 900,
+      "arxivUrl": "https://arxiv.org/abs/2205.06175"
+    },
+    {
+      "id": "videopoet-paper",
+      "category": "paper",
+      "title": "VideoPoet: A Large Language Model for Zero-Shot Video Generation",
+      "title_cn": "VideoPoet：用于零样本视频生成的大型语言模型",
+      "description": "Google's VideoPoet uses a decoder-only language model architecture for video generation, achieving high-quality video synthesis from text, images, and video inputs.",
+      "description_cn": "Google的VideoPoet使用仅解码器的语言模型架构进行视频生成，从文本、图像和视频输入实现高质量视频合成。",
+      "authors": [
+        "Dan Kondratyuk",
+        "Lijun Yu",
+        "Xiuye Gu",
+        "José Lezama",
+        "Jonathan Huang",
+        "Rachel Hornung",
+        "Hartwig Adam",
+        "Hassan Akbari",
+        "Yair Alon",
+        "Vighnesh Birodkar",
+        "Johnathan Chiu",
+        "Sanil Choudhary",
+        "Ming-Chang Chiu",
+        "Yoni Gat",
+        "Davin Ho",
+        "Hexiang Hu",
+        "Jiahui Hu",
+        "Yuming Jiang",
+        "Bowen Li",
+        "Jiayu Liao",
+        "Chang Liu",
+        "Fergus McLachlan",
+        "David Ross",
+        "Sudipta Sengupta",
+        "Sarah Sargent",
+        "Irfan Essa",
+        "Huisheng Wang",
+        "Hao Wu",
+        "Avneesh Sud",
+        "Jinbin Bai",
+        "Adem Bader",
+        "Krik Bell",
+        "Gedas Bertasius",
+        "David Eng",
+        "Nathan Frey",
+        "Christina Gansander",
+        "Dennis Hsu",
+        "Brian Lai",
+        "Junjie Li",
+        "Eric Nguyen",
+        "Kirsty Panton",
+        "Rohan Pradeep Kumar",
+        "Amir Sarvghadi",
+        "Jaesung Tae",
+        "Mingzhou Teng",
+        "Kaipeng Zeng",
+        "Yale Song",
+        "Jiageng Zhang",
+        "Ming-Hsuan Yang",
+        "Ariel Shamir",
+        "Manjunath Kudlur",
+        "David E. Jacobs"
+      ],
+      "date": "2023-12-01",
+      "venue": "Google Technical Report",
+      "venue_cn": "Google技术报告",
+      "tags": [
+        "Video Generation",
+        "LLM",
+        "Zero-shot"
+      ],
+      "tags_cn": [
+        "视频生成",
+        "大语言模型",
+        "零样本"
+      ],
+      "status": "released",
+      "url": "https://sites.research.google/videopoet/",
+      "citations": 200,
+      "arxivUrl": "https://arxiv.org/abs/2312.03887"
+    },
+    {
+      "id": "gaia-1-paper",
+      "category": "paper",
+      "title": "GAIA-1: A Generative World Model for Autonomous Driving",
+      "title_cn": "GAIA-1：用于自动驾驶的生成式世界模型",
+      "description": "Wayve's GAIA-1 is a 9-billion parameter generative world model for autonomous driving that can generate realistic driving videos from text, image, and action inputs.",
+      "description_cn": "Wayve的GAIA-1是一个90亿参数的自动驾驶生成式世界模型，可以从文本、图像和动作输入生成真实的驾驶视频。",
+      "authors": [
+        "Anthony Hu",
+        "Lloyd Russell",
+        "Hudson Yeo",
+        "Zak Murez",
+        "George Fedoseev",
+        "Alex Kendall",
+        "Jamie Shotton",
+        "Gianluca Corrado"
+      ],
+      "date": "2023-09-01",
+      "venue": "arXiv preprint",
+      "venue_cn": "arXiv预印本",
+      "tags": [
+        "Autonomous Driving",
+        "World Models",
+        "Video Generation"
+      ],
+      "tags_cn": [
+        "自动驾驶",
+        "世界模型",
+        "视频生成"
+      ],
+      "status": "released",
+      "url": "https://arxiv.org/abs/2309.17080",
+      "citations": 150,
+      "arxivUrl": "https://arxiv.org/abs/2309.17080"
+    },
+    {
+      "id": "i-jepa-paper",
+      "category": "paper",
+      "title": "I-JEPA: The First AI Model Based on Yann LeCun's Vision for More Human-Like AI",
+      "title_cn": "I-JEPA：基于Yann LeCun愿景的首个更像人类AI的模型",
+      "description": "Meta AI's I-JEPA learns semantic image representations without relying on pre-trained image augmentations, following LeCun's JEPA architecture for more human-like learning.",
+      "description_cn": "Meta AI的I-JEPA不依赖预训练的图像增强来学习语义图像表示，遵循LeCun的JEPA架构实现更像人类的学习。",
+      "authors": [
+        "Meta AI Research"
+      ],
+      "date": "2023-06-01",
+      "venue": "arXiv preprint",
+      "venue_cn": "arXiv预印本",
+      "tags": [
+        "Self-supervised Learning",
+        "Computer Vision",
+        "World Models"
+      ],
+      "tags_cn": [
+        "自监督学习",
+        "计算机视觉",
+        "世界模型"
+      ],
+      "status": "released",
+      "url": "https://ai.meta.com/blog/i-jepa-image-ai-model-human-like/",
+      "citations": 300,
+      "arxivUrl": "https://arxiv.org/abs/2301.08243"
+    },
+    {
+      "id": "v-jepa-paper",
+      "category": "paper",
+      "title": "Revisiting Feature Prediction for Learning Visual Representations from Video",
+      "title_cn": "重新审视特征预测以从视频学习视觉表示",
+      "description": "V-JEPA extends the joint embedding predictive architecture to video, learning video representations by predicting features in a self-supervised manner without reconstructing pixels.",
+      "description_cn": "V-JEPA将联合嵌入预测架构扩展到视频，通过自监督方式预测特征来学习视频表示，无需重建像素。",
+      "authors": [
+        "Meta AI Research"
+      ],
+      "date": "2024-02-01",
+      "venue": "arXiv preprint",
+      "venue_cn": "arXiv预印本",
+      "tags": [
+        "Video Understanding",
+        "Self-supervised Learning",
+        "World Models"
+      ],
+      "tags_cn": [
+        "视频理解",
+        "自监督学习",
+        "世界模型"
+      ],
+      "status": "released",
+      "url": "https://ai.meta.com/blog/v-jepa-meta-ai-video-learning/",
+      "citations": 100,
+      "arxivUrl": "https://arxiv.org/abs/2403.05639"
+    },
+    {
+      "id": "cosmos-paper",
+      "category": "paper",
+      "title": "Cosmos World Foundation Model Platform for Physical AI",
+      "title_cn": "Cosmos物理AI世界基础模型平台",
+      "description": "NVIDIA's technical report on Cosmos, a world foundation model platform designed for physical AI applications including robotics and autonomous driving.",
+      "description_cn": "NVIDIA关于Cosmos的技术报告，这是一个专为物理AI应用（包括机器人和自动驾驶）设计的世界基础模型平台。",
+      "authors": [
+        "NVIDIA Research"
+      ],
+      "date": "2025-01-06",
+      "venue": "NVIDIA Technical Report",
+      "venue_cn": "NVIDIA技术报告",
+      "tags": [
+        "Physical AI",
+        "World Models",
+        "Video Generation"
+      ],
+      "tags_cn": [
+        "物理AI",
+        "世界模型",
+        "视频生成"
+      ],
+      "status": "released",
+      "url": "https://nvidia.com/en-us/ai/cosmos/",
+      "citations": 10,
+      "arxivUrl": "https://arxiv.org/abs/2501.03575"
+    },
+    {
+      "id": "unisim-paper",
+      "category": "paper",
+      "title": "Learning Interactive Real-World Simulators",
+      "title_cn": "学习交互式真实世界模拟器",
+      "description": "UniSim is a learnable simulator that generates realistic interactive environments from real-world data, enabling training of embodied agents without real-world interaction.",
+      "description_cn": "UniSim是一个可学习模拟器，从真实数据生成真实的交互式环境，使具身智能体无需真实世界交互即可训练。",
+      "authors": [
+        "Sherry Yang",
+        "Yilun Du",
+        "Jun Yu",
+        "Pete Florence",
+        "Chelsea Finn",
+        "Dale Schuurmans",
+        "Pierre Sermanet",
+        "DeepMind"
+      ],
+      "date": "2023-01-01",
+      "venue": "arXiv preprint",
+      "venue_cn": "arXiv预印本",
+      "tags": [
+        "World Models",
+        "Simulation",
+        "Robotics"
+      ],
+      "tags_cn": [
+        "世界模型",
+        "模拟",
+        "机器人"
+      ],
+      "status": "released",
+      "url": "https://unisim-world.github.io",
+      "citations": 80,
+      "arxivUrl": "https://arxiv.org/abs/2310.06114"
+    },
+    {
+      "id": "iris-paper",
+      "category": "paper",
+      "title": "Transformers are Sample Efficient World Models",
+      "title_cn": "Transformer是样本高效的世界模型",
+      "description": "IRIS shows that transformer-based world models can achieve strong performance in visual reinforcement learning with high sample efficiency, using discrete autoencoder representations.",
+      "description_cn": "IRIS表明基于Transformer的世界模型可以在视觉强化学习中实现强大的性能和高样本效率，使用离散自编码器表示。",
+      "authors": [
+        "Vincent Micheli",
+        "Eloi Alonso",
+        "François Fleuret"
+      ],
+      "date": "2022-09-01",
+      "venue": "NeurIPS 2022 Deep RL Workshop",
+      "venue_cn": "NeurIPS 2022深度强化学习研讨会",
+      "tags": [
+        "RL",
+        "World Models",
+        "Transformer"
+      ],
+      "tags_cn": [
+        "强化学习",
+        "世界模型",
+        "Transformer"
+      ],
+      "status": "released",
+      "url": "https://arxiv.org/abs/2209.00588",
+      "citations": 250,
+      "arxivUrl": "https://arxiv.org/abs/2209.00588"
+    },
+    {
+      "id": "transformer-xl-paper",
+      "category": "paper",
+      "title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+      "title_cn": "Transformer-XL：超越固定长度上下文的注意力语言模型",
+      "description": "Introduces a novel architecture that enables Transformer to learn dependency beyond a fixed length without disrupting temporal coherence. Key for world models needing long-term temporal understanding.",
+      "description_cn": "介绍了一种新颖架构，使Transformer能够在不破坏时间连贯性的情况下学习固定长度之外的依赖关系。对需要长期时间理解的世界模型至关重要。",
+      "authors": [
+        "Zihang Dai",
+        "Zhilin Yang",
+        "Yiming Yang",
+        "Jaime Carbonell",
+        "Quoc V. Le",
+        "Ruslan Salakhutdinov"
+      ],
+      "date": "2019-06-01",
+      "venue": "ACL 2019",
+      "venue_cn": "ACL 2019",
+      "tags": [
+        "Transformer",
+        "Long Context",
+        "Language Models"
+      ],
+      "tags_cn": [
+        "Transformer",
+        "长上下文",
+        "语言模型"
+      ],
+      "status": "released",
+      "url": "https://arxiv.org/abs/1901.02860",
+      "citations": 4500,
+      "arxivUrl": "https://arxiv.org/abs/1901.02860"
+    },
+    {
+      "id": "decision-transformer-paper",
+      "category": "paper",
+      "title": "Decision Transformer: Reinforcement Learning via Sequence Modeling",
+      "title_cn": "Decision Transformer：通过序列建模进行强化学习",
+      "description": "Frames reinforcement learning as a sequence modeling problem using transformers, showing that treating RL as a conditional generation problem can be highly effective.",
+      "description_cn": "使用Transformer将强化学习框架为序列建模问题，表明将RL视为条件生成问题可以非常有效。",
+      "authors": [
+        "Lili Chen",
+        "Kevin Lu",
+        "Aravind Rajeswaran",
+        "Kimin Lee",
+        "Aditya Grover",
+        "Misha Laskin",
+        "Pieter Abbeel",
+        "Aravind Srinivas",
+        "Igor Mordatch"
+      ],
+      "date": "2021-06-01",
+      "venue": "NeurIPS 2021",
+      "venue_cn": "NeurIPS 2021",
+      "tags": [
+        "RL",
+        "Transformer",
+        "Sequence Modeling"
+      ],
+      "tags_cn": [
+        "强化学习",
+        "Transformer",
+        "序列建模"
+      ],
+      "status": "released",
+      "url": "https://arxiv.org/abs/2106.01345",
+      "citations": 1800,
+      "arxivUrl": "https://arxiv.org/abs/2106.01345"
+    },
+    {
+      "id": "muzero-paper",
+      "category": "paper",
+      "title": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
+      "title_cn": "通过学习模型规划掌握Atari、围棋、国际象棋和将棋",
+      "description": "MuZero achieves superhuman performance in complex board games and Atari without knowing the game rules, learning a model entirely from self-play and planning with it.",
+      "description_cn": "MuZero在不知道游戏规则的情况下，在复杂棋盘游戏和Atari中实现超人类性能，完全通过自我对弈学习模型并进行规划。",
+      "authors": [
+        "Julian Schrittwieser",
+        "Ioannis Antonoglou",
+        "Thomas Hubert",
+        "Karen Simonyan",
+        "Laurent Sifre",
+        "Simon Schmitt",
+        "Arthur Guez",
+        "Edward Lockhart",
+        "Demis Hassabis",
+        "Thore Graepel",
+        "Timothy Lillicrap",
+        "David Silver"
+      ],
+      "date": "2019-11-01",
+      "venue": "Nature",
+      "venue_cn": "Nature",
+      "tags": [
+        "RL",
+        "Planning",
+        "World Models"
+      ],
+      "tags_cn": [
+        "强化学习",
+        "规划",
+        "世界模型"
+      ],
+      "status": "released",
+      "url": "https://doi.org/10.1038/s41586-020-03051-4",
+      "citations": 3200,
+      "arxivUrl": "https://arxiv.org/abs/1911.08265"
+    },
+    {
+      "id": "alpha-zero-paper",
+      "category": "paper",
+      "title": "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+      "title_cn": "通过通用强化学习算法自我对弈掌握国际象棋和将棋",
+      "description": "AlphaZero achieves superhuman performance in chess, shogi, and Go through self-play reinforcement learning with a general-purpose algorithm, starting from random play.",
+      "description_cn": "AlphaZero通过通用自我对弈强化学习算法，从随机对弈开始，在国际象棋、将棋和围棋中实现超人类性能。",
+      "authors": [
+        "David Silver",
+        "Thomas Hubert",
+        "Julian Schrittwieser",
+        "Ioannis Antonoglou",
+        "Matthew Lai",
+        "Arthur Guez",
+        "Marc Lanctot",
+        "Laurent Sifre",
+        "Dharshan Kumaran",
+        "Thore Graepel",
+        "Timothy Lillicrap",
+        "Karen Simonyan",
+        "Demis Hassabis"
+      ],
+      "date": "2017-12-01",
+      "venue": "Science",
+      "venue_cn": "Science",
+      "tags": [
+        "RL",
+        "Self-play",
+        "Planning"
+      ],
+      "tags_cn": [
+        "强化学习",
+        "自我对弈",
+        "规划"
+      ],
+      "status": "released",
+      "url": "https://doi.org/10.1126/science.aar6404",
+      "citations": 5500,
+      "arxivUrl": "https://arxiv.org/abs/1712.01815"
+    },
+    {
+      "id": "rssm-paper",
+      "category": "paper",
+      "title": "Learning and Querying Fast Generative Models of Reinforcement Learning Environments",
+      "title_cn": "学习和查询强化学习环境的快速生成模型",
+      "description": "Introduces the Recurrent State-Space Model (RSSM), the foundational architecture behind the Dreamer series. Combines deterministic and stochastic paths for learning latent dynamics models.",
+      "description_cn": "介绍了循环状态空间模型（RSSM），Dreamer系列的基础架构。结合确定性和随机路径来学习潜在动态模型。",
+      "authors": [
+        "Cesar Laurent",
+        "Marc Bellemare",
+        "Sergey Levine",
+        "Pablo Samuel Castro"
+      ],
+      "date": "2019-06-01",
+      "venue": "arXiv preprint",
+      "venue_cn": "arXiv预印本",
+      "tags": [
+        "RL",
+        "World Models",
+        "Generative Models"
+      ],
+      "tags_cn": [
+        "强化学习",
+        "世界模型",
+        "生成模型"
+      ],
+      "status": "released",
+      "url": "https://arxiv.org/abs/1803.10122",
+      "citations": 800,
+      "arxivUrl": "https://arxiv.org/abs/1803.10122"
+    }
+  ]
+}

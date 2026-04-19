@@ -1,0 +1,861 @@
+{
+  "items": [
+    {
+      "id": "sora",
+      "category": "model",
+      "title": "Sora",
+      "title_cn": "Sora",
+      "description": "OpenAI's text-to-video generation model capable of simulating realistic physical worlds. Sora can generate high-fidelity videos up to one minute long while maintaining visual quality and adherence to user prompts.",
+      "description_cn": "OpenAI的文本到视频生成模型，能够模拟真实的物理世界。Sora可以生成长达一分钟的高保真视频，同时保持视觉质量和对用户提示的遵循。",
+      "organization": "OpenAI",
+      "releaseDate": "2024-02-15",
+      "tags": [
+        "Video Generation",
+        "Diffusion Model",
+        "Physical Simulation"
+      ],
+      "tags_cn": [
+        "视频生成",
+        "扩散模型",
+        "物理模拟"
+      ],
+      "status": "released",
+      "website": "https://openai.com/sora",
+      "paperUrl": "",
+      "githubUrl": "",
+      "modelSize": "Unknown",
+      "license": "Proprietary",
+      "capabilities": [
+        "Text-to-video",
+        "Video extension",
+        "Scene composition"
+      ],
+      "capabilities_cn": [
+        "文本生成视频",
+        "视频扩展",
+        "场景组合"
+      ],
+      "image": "/banners/sora-banner.png"
+    },
+    {
+      "id": "gemini-1.5-pro",
+      "category": "model",
+      "title": "Gemini 1.5 Pro",
+      "title_cn": "Gemini 1.5 Pro",
+      "description": "Google DeepMind's multimodal AI model with up to 2 million token context window. Supports video understanding, cross-modal reasoning, and long-context comprehension.",
+      "description_cn": "Google DeepMind的多模态AI模型，上下文窗口高达200万token。支持视频理解、跨模态推理和长上下文理解。",
+      "organization": "Google DeepMind",
+      "releaseDate": "2024-02-15",
+      "tags": [
+        "Multimodal",
+        "LLM",
+        "Video Understanding"
+      ],
+      "tags_cn": [
+        "多模态",
+        "大语言模型",
+        "视频理解"
+      ],
+      "status": "released",
+      "website": "https://deepmind.google/technologies/gemini/",
+      "paperUrl": "",
+      "githubUrl": "",
+      "modelSize": "Unknown",
+      "license": "Proprietary",
+      "capabilities": [
+        "Video understanding",
+        "Long context",
+        "Multimodal reasoning"
+      ],
+      "capabilities_cn": [
+        "视频理解",
+        "长上下文",
+        "多模态推理"
+      ],
+      "image": "/banners/gemini-banner.png"
+    },
+    {
+      "id": "gaia-1",
+      "category": "model",
+      "title": "GAIA-1",
+      "title_cn": "GAIA-1",
+      "description": "Wayve's generative world model for autonomous driving that uses video, text, and action inputs to generate realistic driving scenarios and predict future states.",
+      "description_cn": "Wayve的自动驾驶生成式世界模型，使用视频、文本和动作输入来生成真实的驾驶场景并预测未来状态。",
+      "organization": "Wayve",
+      "releaseDate": "2023-09-01",
+      "tags": [
+        "Autonomous Driving",
+        "World Models",
+        "Video Generation"
+      ],
+      "tags_cn": [
+        "自动驾驶",
+        "世界模型",
+        "视频生成"
+      ],
+      "status": "released",
+      "website": "https://wayve.ai/thinking/introducing-gaia-1/",
+      "paperUrl": "https://arxiv.org/abs/2309.17080",
+      "githubUrl": "",
+      "modelSize": "9B",
+      "license": "Proprietary",
+      "capabilities": [
+        "Driving scene generation",
+        "World simulation",
+        "Future prediction"
+      ],
+      "capabilities_cn": [
+        "驾驶场景生成",
+        "世界模拟",
+        "未来预测"
+      ],
+      "image": "/banners/gaia1-banner.png"
+    },
+    {
+      "id": "cosmos",
+      "category": "model",
+      "title": "NVIDIA Cosmos",
+      "title_cn": "NVIDIA Cosmos",
+      "description": "NVIDIA's world foundation model platform for physical AI. Cosmos provides pre-trained world foundation models for predicting video outputs in physical environments, targeting robotics and autonomous systems.",
+      "description_cn": "NVIDIA用于物理AI的世界基础模型平台。Cosmos提供预训练的世界基础模型，用于预测物理环境中的视频输出，面向机器人和自主系统。",
+      "organization": "NVIDIA",
+      "releaseDate": "2025-01-06",
+      "tags": [
+        "Physical AI",
+        "World Models",
+        "Autonomous Systems",
+        "Robotics"
+      ],
+      "tags_cn": [
+        "物理AI",
+        "世界模型",
+        "自主系统",
+        "机器人"
+      ],
+      "status": "released",
+      "website": "https://nvidia.com/en-us/ai/cosmos/",
+      "paperUrl": "",
+      "githubUrl": "https://github.com/NVIDIA/Cosmos",
+      "modelSize": "14B",
+      "license": "NVIDIA Open Model License",
+      "capabilities": [
+        "Physical world prediction",
+        "Video generation",
+        "Robot training"
+      ],
+      "capabilities_cn": [
+        "物理世界预测",
+        "视频生成",
+        "机器人训练"
+      ],
+      "image": "/banners/cosmos-banner.png"
+    },
+    {
+      "id": "runway-gen-3",
+      "category": "model",
+      "title": "Runway Gen-3 Alpha",
+      "title_cn": "Runway Gen-3 Alpha",
+      "description": "Runway's next-generation video generation model with significant improvements in fidelity, consistency, and motion. Capable of high-quality video synthesis from text and image inputs.",
+      "description_cn": "Runway的下一代视频生成模型，在保真度、一致性和运动方面有显著提升。能够根据文本和图像输入进行高质量视频合成。",
+      "organization": "Runway",
+      "releaseDate": "2024-06-17",
+      "tags": [
+        "Video Generation",
+        "Creative AI",
+        "Diffusion Model"
+      ],
+      "tags_cn": [
+        "视频生成",
+        "创意AI",
+        "扩散模型"
+      ],
+      "status": "released",
+      "website": "https://runwayml.com/gen-3",
+      "paperUrl": "",
+      "githubUrl": "",
+      "modelSize": "Unknown",
+      "license": "Proprietary",
+      "capabilities": [
+        "Text-to-video",
+        "Image-to-video",
+        "Video editing"
+      ],
+      "capabilities_cn": [
+        "文本生成视频",
+        "图像生成视频",
+        "视频编辑"
+      ],
+      "image": "/banners/runway-gen3-banner.png"
+    },
+    {
+      "id": "pika-1.5",
+      "category": "model",
+      "title": "Pika 1.5",
+      "title_cn": "Pika 1.5",
+      "description": "Pika Labs' advanced video generation model with improved motion understanding and visual quality. Features Pikaffects for applying effects to generated content.",
+      "description_cn": "Pika Labs的先进视频生成模型，具有改进的运动理解和视觉质量。具有Pikaffects功能，可对生成内容应用特效。",
+      "organization": "Pika Labs",
+      "releaseDate": "2024-10-01",
+      "tags": [
+        "Video Generation",
+        "Creative AI",
+        "Generative AI"
+      ],
+      "tags_cn": [
+        "视频生成",
+        "创意AI",
+        "生成式AI"
+      ],
+      "status": "released",
+      "website": "https://pika.art",
+      "paperUrl": "",
+      "githubUrl": "",
+      "modelSize": "Unknown",
+      "license": "Proprietary",
+      "capabilities": [
+        "Text-to-video",
+        "Image-to-video",
+        "Video effects"
+      ],
+      "capabilities_cn": [
+        "文本生成视频",
+        "图像生成视频",
+        "视频特效"
+      ],
+      "image": "/banners/pika15-banner.png"
+    },
+    {
+      "id": "stable-video-diffusion",
+      "category": "model",
+      "title": "Stable Video Diffusion",
+      "title_cn": "Stable Video Diffusion",
+      "description": "Stability AI's open-source video generation model based on the Stable Diffusion image model. Supports both image-to-video generation and text-to-video workflows.",
+      "description_cn": "Stability AI基于Stable Diffusion图像模型的开源视频生成模型。支持图像生成视频和文本生成视频工作流。",
+      "organization": "Stability AI",
+      "releaseDate": "2023-11-21",
+      "tags": [
+        "Video Generation",
+        "Open Source",
+        "Diffusion Model"
+      ],
+      "tags_cn": [
+        "视频生成",
+        "开源",
+        "扩散模型"
+      ],
+      "status": "released",
+      "website": "https://stability.ai/stable-video",
+      "paperUrl": "",
+      "githubUrl": "https://github.com/Stability-AI/generative-models",
+      "modelSize": "1.6B",
+      "license": "Stability AI Community License",
+      "capabilities": [
+        "Image-to-video",
+        "Text-to-video",
+        "Video editing"
+      ],
+      "capabilities_cn": [
+        "图像生成视频",
+        "文本生成视频",
+        "视频编辑"
+      ],
+      "image": "/banners/svd-banner.png"
+    },
+    {
+      "id": "dall-e-3",
+      "category": "model",
+      "title": "DALL-E 3",
+      "title_cn": "DALL-E 3",
+      "description": "OpenAI's advanced text-to-image generation model with high prompt fidelity and detailed image synthesis. Integrated with ChatGPT for conversational image creation.",
+      "description_cn": "OpenAI的先进文本到图像生成模型，具有高提示保真度和详细的图像合成能力。与ChatGPT集成实现对话式图像创建。",
+      "organization": "OpenAI",
+      "releaseDate": "2023-09-01",
+      "tags": [
+        "Image Generation",
+        "Multimodal",
+        "Diffusion Model"
+      ],
+      "tags_cn": [
+        "图像生成",
+        "多模态",
+        "扩散模型"
+      ],
+      "status": "released",
+      "website": "https://openai.com/dall-e-3",
+      "paperUrl": "",
+      "githubUrl": "",
+      "modelSize": "Unknown",
+      "license": "Proprietary",
+      "capabilities": [
+        "Text-to-image",
+        "Image editing",
+        "Conversational creation"
+      ],
+      "capabilities_cn": [
+        "文本生成图像",
+        "图像编辑",
+        "对话式创建"
+      ],
+      "image": "/banners/dalle3-banner.png"
+    },
+    {
+      "id": "midjourney-v6",
+      "category": "model",
+      "title": "Midjourney V6",
+      "title_cn": "Midjourney V6",
+      "description": "Midjourney's latest image generation model with photorealistic quality, improved prompt understanding, and advanced text rendering within images.",
+      "description_cn": "Midjourney的最新图像生成模型，具有照片级真实质量、改进的提示理解和图像内高级文本渲染能力。",
+      "organization": "Midjourney",
+      "releaseDate": "2023-12-21",
+      "tags": [
+        "Image Generation",
+        "Creative AI",
+        "Generative AI"
+      ],
+      "tags_cn": [
+        "图像生成",
+        "创意AI",
+        "生成式AI"
+      ],
+      "status": "released",
+      "website": "https://midjourney.com",
+      "paperUrl": "",
+      "githubUrl": "",
+      "modelSize": "Unknown",
+      "license": "Proprietary",
+      "capabilities": [
+        "Text-to-image",
+        "Image upscaling",
+        "Style control"
+      ],
+      "capabilities_cn": [
+        "文本生成图像",
+        "图像超分",
+        "风格控制"
+      ],
+      "image": "/banners/midjourney-v6-banner.png"
+    },
+    {
+      "id": "gpt-4v",
+      "category": "model",
+      "title": "GPT-4V (GPT-4 Vision)",
+      "title_cn": "GPT-4V (GPT-4视觉版)",
+      "description": "OpenAI's multimodal version of GPT-4 that can process and understand images alongside text. Enables visual question answering, image captioning, and video understanding.",
+      "description_cn": "OpenAI GPT-4的多模态版本，可以处理和理解图像以及文本。支持视觉问答、图像描述和视频理解。",
+      "organization": "OpenAI",
+      "releaseDate": "2023-09-25",
+      "tags": [
+        "Multimodal",
+        "LLM",
+        "Vision"
+      ],
+      "tags_cn": [
+        "多模态",
+        "大语言模型",
+        "视觉"
+      ],
+      "status": "released",
+      "website": "https://openai.com/research/gpt-4v-system-card",
+      "paperUrl": "",
+      "githubUrl": "",
+      "modelSize": "Unknown",
+      "license": "Proprietary",
+      "capabilities": [
+        "Visual understanding",
+        "Image captioning",
+        "Video analysis"
+      ],
+      "capabilities_cn": [
+        "视觉理解",
+        "图像描述",
+        "视频分析"
+      ],
+      "image": "/banners/gpt4v-banner.png"
+    },
+    {
+      "id": "claude-3",
+      "category": "model",
+      "title": "Claude 3",
+      "title_cn": "Claude 3",
+      "description": "Anthropic's family of large language models including Opus, Sonnet, and Haiku. Features strong reasoning, vision capabilities, and long context understanding up to 200K tokens.",
+      "description_cn": "Anthropic的大语言模型家族，包括Opus、Sonnet和Haiku。具有强大的推理、视觉能力和长达20万token的长上下文理解。",
+      "organization": "Anthropic",
+      "releaseDate": "2024-03-04",
+      "tags": [
+        "LLM",
+        "Multimodal",
+        "AI Safety"
+      ],
+      "tags_cn": [
+        "大语言模型",
+        "多模态",
+        "AI安全"
+      ],
+      "status": "released",
+      "website": "https://anthropic.com/claude",
+      "paperUrl": "",
+      "githubUrl": "",
+      "modelSize": "Unknown",
+      "license": "Proprietary",
+      "capabilities": [
+        "Text generation",
+        "Vision",
+        "Long context",
+        "Reasoning"
+      ],
+      "capabilities_cn": [
+        "文本生成",
+        "视觉",
+        "长上下文",
+        "推理"
+      ],
+      "image": "/banners/claude3-banner.png"
+    },
+    {
+      "id": "llava",
+      "category": "model",
+      "title": "LLaVA",
+      "title_cn": "LLaVA",
+      "description": "Large Language and Vision Assistant that connects a vision encoder to an LLM for general-purpose visual and language understanding. Open-source multimodal model.",
+      "description_cn": "大型语言与视觉助手，将视觉编码器连接到大语言模型以实现通用视觉和语言理解。开源多模态模型。",
+      "organization": "Microsoft Research / UW",
+      "releaseDate": "2023-04-01",
+      "tags": [
+        "Multimodal",
+        "Open Source",
+        "Vision-Language"
+      ],
+      "tags_cn": [
+        "多模态",
+        "开源",
+        "视觉-语言"
+      ],
+      "status": "released",
+      "website": "https://llava-vl.github.io",
+      "paperUrl": "https://arxiv.org/abs/2304.08485",
+      "githubUrl": "https://github.com/haotian-liu/LLaVA",
+      "modelSize": "7B/13B",
+      "license": "Apache 2.0",
+      "capabilities": [
+        "Visual QA",
+        "Image captioning",
+        "Multimodal chat"
+      ],
+      "capabilities_cn": [
+        "视觉问答",
+        "图像描述",
+        "多模态对话"
+      ],
+      "image": "/banners/llava-banner.png"
+    },
+    {
+      "id": "videopoet",
+      "category": "model",
+      "title": "VideoPoet",
+      "title_cn": "VideoPoet",
+      "description": "Google's large language model for zero-shot video generation. Uses a decoder-only transformer architecture to generate high-quality video from text, images, and video inputs.",
+      "description_cn": "Google用于零样本视频生成的大型语言模型。使用仅解码器的Transformer架构从文本、图像和视频输入生成高质量视频。",
+      "organization": "Google Research",
+      "releaseDate": "2023-12-01",
+      "tags": [
+        "Video Generation",
+        "LLM",
+        "Zero-shot"
+      ],
+      "tags_cn": [
+        "视频生成",
+        "大语言模型",
+        "零样本"
+      ],
+      "status": "research",
+      "website": "https://sites.research.google/videopoet/",
+      "paperUrl": "https://arxiv.org/abs/2312.03887",
+      "githubUrl": "",
+      "modelSize": "Unknown",
+      "license": "Proprietary",
+      "capabilities": [
+        "Text-to-video",
+        "Image-to-video",
+        "Video stylization"
+      ],
+      "capabilities_cn": [
+        "文本生成视频",
+        "图像生成视频",
+        "视频风格化"
+      ],
+      "image": "/banners/videopoet-banner.png"
+    },
+    {
+      "id": "gen-2",
+      "category": "model",
+      "title": "Runway Gen-2",
+      "title_cn": "Runway Gen-2",
+      "description": "Runway's multimodal AI system for video generation that can synthesize realistic videos from text, images, or video clips using a latent video diffusion model.",
+      "description_cn": "Runway的多模态AI视频生成系统，可以使用潜在视频扩散模型从文本、图像或视频片段合成真实视频。",
+      "organization": "Runway",
+      "releaseDate": "2023-06-01",
+      "tags": [
+        "Video Generation",
+        "Diffusion Model",
+        "Multimodal"
+      ],
+      "tags_cn": [
+        "视频生成",
+        "扩散模型",
+        "多模态"
+      ],
+      "status": "released",
+      "website": "https://research.runwayml.com/gen2",
+      "paperUrl": "https://arxiv.org/abs/2302.03011",
+      "githubUrl": "",
+      "modelSize": "Unknown",
+      "license": "Proprietary",
+      "capabilities": [
+        "Text-to-video",
+        "Image-to-video",
+        "Video-to-video"
+      ],
+      "capabilities_cn": [
+        "文本生成视频",
+        "图像生成视频",
+        "视频生成视频"
+      ],
+      "image": "/banners/gen2-banner.png"
+    },
+    {
+      "id": "i-jepa",
+      "category": "model",
+      "title": "I-JEPA",
+      "title_cn": "I-JEPA",
+      "description": "Image Joint Embedding Predictive Architecture by Meta AI. A self-supervised learning method that learns semantic image representations by predicting representations of target blocks from context blocks.",
+      "description_cn": "Meta AI的图像联合嵌入预测架构。一种自监督学习方法，通过从上下文块预测目标块的表示来学习语义图像表示。",
+      "organization": "Meta AI",
+      "releaseDate": "2023-06-01",
+      "tags": [
+        "Self-supervised Learning",
+        "Computer Vision",
+        "Open Source"
+      ],
+      "tags_cn": [
+        "自监督学习",
+        "计算机视觉",
+        "开源"
+      ],
+      "status": "released",
+      "website": "https://ai.meta.com/blog/i-jepa-image-ai-model-human-like/",
+      "paperUrl": "https://arxiv.org/abs/2301.08243",
+      "githubUrl": "https://github.com/facebookresearch/ijepa",
+      "modelSize": "1B (ViT-H)",
+      "license": "CC BY-NC 4.0",
+      "capabilities": [
+        "Image understanding",
+        "Representation learning",
+        "Pretraining"
+      ],
+      "capabilities_cn": [
+        "图像理解",
+        "表示学习",
+        "预训练"
+      ],
+      "image": "/banners/ijepa-banner.png"
+    },
+    {
+      "id": "sam-2",
+      "category": "model",
+      "title": "SAM 2",
+      "title_cn": "SAM 2",
+      "description": "Segment Anything Model 2 by Meta AI. Extends the original SAM to video, enabling promptable visual segmentation in images and videos with state-of-the-art zero-shot performance.",
+      "description_cn": "Meta AI的Segment Anything模型2。将原始SAM扩展到视频，支持图像和视频中可提示的视觉分割，具有最先进的零样本性能。",
+      "organization": "Meta AI",
+      "releaseDate": "2024-07-29",
+      "tags": [
+        "Computer Vision",
+        "Video Segmentation",
+        "Open Source"
+      ],
+      "tags_cn": [
+        "计算机视觉",
+        "视频分割",
+        "开源"
+      ],
+      "status": "released",
+      "website": "https://ai.meta.com/sam2/",
+      "paperUrl": "https://arxiv.org/abs/2408.00714",
+      "githubUrl": "https://github.com/facebookresearch/segment-anything-2",
+      "modelSize": "Unknown",
+      "license": "Apache 2.0",
+      "capabilities": [
+        "Image segmentation",
+        "Video segmentation",
+        "Promptable segmentation"
+      ],
+      "capabilities_cn": [
+        "图像分割",
+        "视频分割",
+        "可提示分割"
+      ],
+      "image": "/banners/sam2-banner.png"
+    },
+    {
+      "id": "v-jepa",
+      "category": "model",
+      "title": "V-JEPA",
+      "title_cn": "V-JEPA",
+      "description": "Video Joint Embedding Predictive Architecture by Meta AI. A self-supervised approach for learning video representations from unlabeled video by predicting feature representations in latent space.",
+      "description_cn": "Meta AI的视频联合嵌入预测架构。一种自监督方法，通过在潜在空间中预测特征表示从未标记视频学习视频表示。",
+      "organization": "Meta AI",
+      "releaseDate": "2024-02-01",
+      "tags": [
+        "Video Understanding",
+        "Self-supervised Learning",
+        "Open Source"
+      ],
+      "tags_cn": [
+        "视频理解",
+        "自监督学习",
+        "开源"
+      ],
+      "status": "released",
+      "website": "https://ai.meta.com/blog/v-jepa-meta-ai-video-learning/",
+      "paperUrl": "https://arxiv.org/abs/2403.05639",
+      "githubUrl": "https://github.com/facebookresearch/jepa",
+      "modelSize": "1B (ViT-L)",
+      "license": "CC BY-NC 4.0",
+      "capabilities": [
+        "Video representation",
+        "Action recognition",
+        "Self-supervised pretraining"
+      ],
+      "capabilities_cn": [
+        "视频表示",
+        "动作识别",
+        "自监督预训练"
+      ],
+      "image": "/banners/vjepa-banner.png"
+    },
+    {
+      "id": "nwm-nvidia",
+      "category": "model",
+      "title": "NVIDIA World Model (NWM)",
+      "title_cn": "NVIDIA世界模型 (NWM)",
+      "description": "NVIDIA's world model for autonomous driving that generates future video frames conditioned on past observations and planned trajectories. Used for simulation and validation of self-driving systems.",
+      "description_cn": "NVIDIA用于自动驾驶的世界模型，根据过去观测和规划轨迹生成未来视频帧。用于自动驾驶系统的模拟和验证。",
+      "organization": "NVIDIA",
+      "releaseDate": "2024-03-01",
+      "tags": [
+        "Autonomous Driving",
+        "World Models",
+        "Video Prediction"
+      ],
+      "tags_cn": [
+        "自动驾驶",
+        "世界模型",
+        "视频预测"
+      ],
+      "status": "research",
+      "website": "https://nvidia.com",
+      "paperUrl": "",
+      "githubUrl": "",
+      "modelSize": "Unknown",
+      "license": "Proprietary",
+      "capabilities": [
+        "Future frame prediction",
+        "Driving simulation",
+        "Scenario generation"
+      ],
+      "capabilities_cn": [
+        "未来帧预测",
+        "驾驶模拟",
+        "场景生成"
+      ],
+      "image": "/banners/nwm-banner.png"
+    },
+    {
+      "id": "gato",
+      "category": "model",
+      "title": "Gato",
+      "title_cn": "Gato",
+      "description": "A generalist agent by DeepMind that can play Atari, caption images, chat, stack blocks with a real robot arm, and more, all with a single neural network with the same set of weights.",
+      "description_cn": "DeepMind的通用智能体，可以用单个神经网络的同一组权重玩Atari、描述图像、聊天、用真实机器人手臂堆叠积木等。",
+      "organization": "DeepMind",
+      "releaseDate": "2022-05-01",
+      "tags": [
+        "Generalist Agent",
+        "RL",
+        "Multimodal"
+      ],
+      "tags_cn": [
+        "通用智能体",
+        "强化学习",
+        "多模态"
+      ],
+      "status": "research",
+      "website": "https://deepmind.google/discover/blog/a-generalist-agent/",
+      "paperUrl": "https://arxiv.org/abs/2205.06175",
+      "githubUrl": "",
+      "modelSize": "1.18B",
+      "license": "Proprietary",
+      "capabilities": [
+        "Game playing",
+        "Robot control",
+        "Image captioning",
+        "NLP"
+      ],
+      "capabilities_cn": [
+        "游戏游玩",
+        "机器人控制",
+        "图像描述",
+        "自然语言处理"
+      ],
+      "image": "/banners/gato-banner.png"
+    },
+    {
+      "id": "dreamerv3",
+      "category": "model",
+      "title": "DreamerV3",
+      "title_cn": "DreamerV3",
+      "description": "Third generation of the Dreamer algorithm by BAIR. A reinforcement learning agent that learns a world model from pixels and solves tasks in a learned latent space. Masters diverse domains from scratch.",
+      "description_cn": "BAIR的Dreamer算法第三代。一个强化学习智能体，从像素中学习世界模型并在学习到的潜在空间中解决任务。从零开始掌握多种领域。",
+      "organization": "BAIR (UC Berkeley)",
+      "releaseDate": "2023-01-01",
+      "tags": [
+        "RL",
+        "World Models",
+        "Open Source"
+      ],
+      "tags_cn": [
+        "强化学习",
+        "世界模型",
+        "开源"
+      ],
+      "status": "released",
+      "website": "https://danijar.com/project/dreamerv3/",
+      "paperUrl": "https://arxiv.org/abs/2301.04104",
+      "githubUrl": "https://github.com/danijar/dreamerv3",
+      "modelSize": "Unknown",
+      "license": "MIT",
+      "capabilities": [
+        "World model learning",
+        "Policy optimization",
+        "Pixel-based control"
+      ],
+      "capabilities_cn": [
+        "世界模型学习",
+        "策略优化",
+        "基于像素的控制"
+      ],
+      "image": "/banners/dreamerv3-banner.png"
+    },
+    {
+      "id": "unisim",
+      "category": "model",
+      "title": "UniSim",
+      "title_cn": "UniSim",
+      "description": "A learnable simulator by BAIR and DeepMind that generates realistic interactive environments from real-world data. Can simulate visual outcomes of actions for training embodied agents.",
+      "description_cn": "BAIR和DeepMind开发的可学习模拟器，从真实数据生成真实的交互式环境。可以模拟动作的视觉结果以训练具身智能体。",
+      "organization": "BAIR / DeepMind",
+      "releaseDate": "2023-01-01",
+      "tags": [
+        "World Models",
+        "Simulation",
+        "Robotics"
+      ],
+      "tags_cn": [
+        "世界模型",
+        "模拟",
+        "机器人"
+      ],
+      "status": "research",
+      "website": "https://unisim-world.github.io",
+      "paperUrl": "https://arxiv.org/abs/2310.06114",
+      "githubUrl": "",
+      "modelSize": "Unknown",
+      "license": "Proprietary",
+      "capabilities": [
+        "Interactive simulation",
+        "Action prediction",
+        "Agent training"
+      ],
+      "capabilities_cn": [
+        "交互式模拟",
+        "动作预测",
+        "智能体训练"
+      ],
+      "image": "/banners/unisim-banner.png"
+    },
+    {
+      "id": "iris",
+      "category": "model",
+      "title": "IRIS",
+      "title_cn": "IRIS",
+      "description": "Imagination with auto-Regressive Integrated Stack by DeepMind. A data-efficient world model agent that learns to play games from high-dimensional visual inputs using a transformer-based world model.",
+      "description_cn": "DeepMind的IRIS（自回归集成堆栈想象）。一种数据高效的世界模型智能体，使用基于Transformer的世界模型从高维视觉输入学习玩游戏。",
+      "organization": "DeepMind",
+      "releaseDate": "2022-01-01",
+      "tags": [
+        "RL",
+        "World Models",
+        "Transformer"
+      ],
+      "tags_cn": [
+        "强化学习",
+        "世界模型",
+        "Transformer"
+      ],
+      "status": "research",
+      "website": "https://arxiv.org/abs/2209.00588",
+      "paperUrl": "https://arxiv.org/abs/2209.00588",
+      "githubUrl": "",
+      "modelSize": "Unknown",
+      "license": "Proprietary",
+      "capabilities": [
+        "Game playing",
+        "Visual RL",
+        "World model imagination"
+      ],
+      "capabilities_cn": [
+        "游戏游玩",
+        "视觉强化学习",
+        "世界模型想象"
+      ],
+      "image": "/banners/iris-banner.png"
+    },
+    {
+      "id": "transformer-xl-world",
+      "category": "model",
+      "title": "Transformer-XL World Models",
+      "title_cn": "Transformer-XL世界模型",
+      "description": "An extension of Transformer-XL for learning long-term dependencies in reinforcement learning environments. Applied to world model learning for capturing temporal dynamics in sequential decision making.",
+      "description_cn": "Transformer-XL的扩展，用于学习强化学习环境中的长期依赖。应用于世界模型学习以捕捉序列决策中的时间动态。",
+      "organization": "Carnegie Mellon / Google",
+      "releaseDate": "2019-06-01",
+      "tags": [
+        "RL",
+        "Transformer",
+        "Long-term Dependencies"
+      ],
+      "tags_cn": [
+        "强化学习",
+        "Transformer",
+        "长期依赖"
+      ],
+      "status": "research",
+      "website": "",
+      "paperUrl": "https://arxiv.org/abs/1901.02860",
+      "githubUrl": "",
+      "modelSize": "Unknown",
+      "license": "Proprietary",
+      "capabilities": [
+        "Long sequence modeling",
+        "World state prediction",
+        "Temporal reasoning"
+      ],
+      "capabilities_cn": [
+        "长序列建模",
+        "世界状态预测",
+        "时序推理"
+      ],
+      "image": "/banners/transformer-xl-banner.png"
+    }
+  ]
+}

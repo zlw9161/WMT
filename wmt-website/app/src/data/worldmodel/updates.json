@@ -1,0 +1,136 @@
+{
+  "items": [
+    {
+      "id": "update-1",
+      "date": "2025-01-06",
+      "title": "NVIDIA Launches Cosmos World Foundation Model Platform",
+      "title_cn": "NVIDIA发布Cosmos世界基础模型平台",
+      "source": "NVIDIA Blog",
+      "category": "release",
+      "url": "https://nvidia.com/en-us/ai/cosmos/",
+      "summary": "NVIDIA launches Cosmos, a world foundation model platform with 14B parameters designed for physical AI applications including robotics and autonomous driving. Available open-source.",
+      "summary_cn": "NVIDIA发布Cosmos，一个140亿参数的世界基础模型平台，用于物理AI应用，包括机器人和自动驾驶。以开源形式提供。"
+    },
+    {
+      "id": "update-2",
+      "date": "2024-12-09",
+      "title": "OpenAI Unveils Sora Turbo for ChatGPT Plus Users",
+      "title_cn": "OpenAI为ChatGPT Plus用户推出Sora Turbo",
+      "source": "OpenAI Blog",
+      "category": "release",
+      "url": "https://openai.com/sora",
+      "summary": "OpenAI expands Sora access to Plus and Pro subscribers with a faster 'Turbo' version capable of generating videos up to 20 seconds.",
+      "summary_cn": "OpenAI将Sora访问权限扩展到Plus和Pro订阅者，推出更快的'Turbo'版本，可生成长达20秒的视频。"
+    },
+    {
+      "id": "update-3",
+      "date": "2024-12-01",
+      "title": "DreamerV3 Published in Nature",
+      "title_cn": "DreamerV3在Nature发表",
+      "source": "Nature",
+      "category": "publication",
+      "url": "https://www.nature.com",
+      "summary": "The DreamerV3 algorithm is published in Nature, demonstrating mastery of diverse domains through world models without domain-specific tuning.",
+      "summary_cn": "DreamerV3算法在Nature发表，展示了通过世界模型无需领域特定调优即可掌握多种领域。"
+    },
+    {
+      "id": "update-4",
+      "date": "2024-11-20",
+      "title": "Meta AI Releases V-JEPA for Video Understanding",
+      "title_cn": "Meta AI发布V-JEPA用于视频理解",
+      "source": "Meta AI Blog",
+      "category": "release",
+      "url": "https://ai.meta.com/blog/v-jepa-meta-ai-video-learning/",
+      "summary": "Meta AI releases V-JEPA, a video joint embedding predictive architecture that learns video representations through feature prediction without pixel reconstruction.",
+      "summary_cn": "Meta AI发布V-JEPA，一种视频联合嵌入预测架构，通过特征预测学习视频表示，无需像素重建。"
+    },
+    {
+      "id": "update-5",
+      "date": "2024-11-01",
+      "title": "Wayve Introduces PRISM-1 World Model for Autonomous Driving",
+      "title_cn": "Wayve推出PRISM-1自动驾驶世界模型",
+      "source": "Wayve Blog",
+      "category": "release",
+      "url": "https://wayve.ai/thinking/prism-1/",
+      "summary": "Wayve introduces PRISM-1, a next-generation world model for autonomous driving with improved simulation fidelity and scenario diversity.",
+      "summary_cn": "Wayve推出PRISM-1，一个下一代自动驾驶世界模型，具有改进的模拟保真度和场景多样性。"
+    },
+    {
+      "id": "update-6",
+      "date": "2024-10-01",
+      "title": "Pika Labs Releases Pika 1.5 with Advanced Motion Features",
+      "title_cn": "Pika Labs发布Pika 1.5，具备高级运动功能",
+      "source": "Pika Labs",
+      "category": "release",
+      "url": "https://pika.art",
+      "summary": "Pika 1.5 introduces advanced motion understanding, Pikaffects for video editing, and improved video generation quality.",
+      "summary_cn": "Pika 1.5引入高级运动理解、用于视频编辑的Pikaffects和改进的视频生成质量。"
+    },
+    {
+      "id": "update-7",
+      "date": "2024-09-01",
+      "title": "Alibaba DAMO Releases Qwen2-VL Multimodal Model",
+      "title_cn": "阿里巴巴达摩院发布Qwen2-VL多模态模型",
+      "source": "Alibaba DAMO",
+      "category": "release",
+      "url": "https://huggingface.co/Qwen/Qwen2-VL",
+      "summary": "Alibaba DAMO releases Qwen2-VL, a vision-language model with strong video understanding and world model capabilities for Chinese and English.",
+      "summary_cn": "阿里巴巴达摩院发布Qwen2-VL，一个具有强视频理解和世界模型能力的中英文视觉语言模型。"
+    },
+    {
+      "id": "update-8",
+      "date": "2024-08-01",
+      "title": "Runway Gen-3 Alpha Turbo Released",
+      "title_cn": "Runway Gen-3 Alpha Turbo发布",
+      "source": "Runway Blog",
+      "category": "release",
+      "url": "https://runwayml.com",
+      "summary": "Runway releases a faster 'Turbo' variant of Gen-3 Alpha with near real-time video generation capabilities.",
+      "summary_cn": "Runway发布更快的Gen-3 Alpha 'Turbo'变体，具备接近实时的视频生成能力。"
+    },
+    {
+      "id": "update-9",
+      "date": "2024-07-29",
+      "title": "Meta AI Open-Sources SAM 2 for Video Segmentation",
+      "title_cn": "Meta AI开源SAM 2用于视频分割",
+      "source": "Meta AI Blog",
+      "category": "release",
+      "url": "https://ai.meta.com/sam2/",
+      "summary": "Meta AI releases SAM 2 as open source, extending promptable segmentation to video with state-of-the-art performance.",
+      "summary_cn": "Meta AI以开源形式发布SAM 2，将可提示分割扩展到视频，具有最先进的性能。"
+    },
+    {
+      "id": "update-10",
+      "date": "2024-06-01",
+      "title": "Stability AI Releases Stable Diffusion 3",
+      "title_cn": "Stability AI发布Stable Diffusion 3",
+      "source": "Stability AI Blog",
+      "category": "release",
+      "url": "https://stability.ai",
+      "summary": "Stability AI releases Stable Diffusion 3 with improved text rendering, image quality, and multimodal understanding.",
+      "summary_cn": "Stability AI发布Stable Diffusion 3，改进了文本渲染、图像质量和多模态理解。"
+    },
+    {
+      "id": "update-11",
+      "date": "2024-05-01",
+      "title": "Google DeepMind Advances Video Understanding with Gemini 1.5 Pro",
+      "title_cn": "Google DeepMind通过Gemini 1.5 Pro推进视频理解",
+      "source": "Google DeepMind Blog",
+      "category": "research",
+      "url": "https://deepmind.google/technologies/gemini/",
+      "summary": "Google DeepMind extends Gemini 1.5 Pro context window to 2M tokens, enabling unprecedented video understanding and world model analysis capabilities.",
+      "summary_cn": "Google DeepMind将Gemini 1.5 Pro上下文窗口扩展到200万token，实现了前所未有的视频理解和世界模型分析能力。"
+    },
+    {
+      "id": "update-12",
+      "date": "2024-03-04",
+      "title": "Anthropic Releases Claude 3 with Vision Capabilities",
+      "title_cn": "Anthropic发布Claude 3，具备视觉能力",
+      "source": "Anthropic Blog",
+      "category": "release",
+      "url": "https://anthropic.com/news/claude-3-family",
+      "summary": "Anthropic launches Claude 3 family with multimodal capabilities including vision understanding and long-context world model reasoning.",
+      "summary_cn": "Anthropic推出Claude 3家族，具有多模态能力，包括视觉理解和长上下文世界模型推理。"
+    }
+  ]
+}

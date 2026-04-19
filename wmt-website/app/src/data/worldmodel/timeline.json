@@ -1,0 +1,292 @@
+{
+  "items": [
+    {
+      "id": "event-1",
+      "date": "2018-03-01",
+      "year": "2018",
+      "title": "World Models Paper Published",
+      "title_cn": "《世界模型》论文发表",
+      "description": "Ha and Schmidhuber publish the seminal 'World Models' paper, introducing the concept of agents learning in simulated dream environments with a visual, memory, and controller component.",
+      "description_cn": "Ha和Schmidhuber发表了开创性的《世界模型》论文，提出了在模拟梦境环境中学习的智能体概念，包含视觉、记忆和控制器组件。",
+      "category": "milestone",
+      "importance": "high",
+      "relatedItems": [
+        "world-models-paper"
+      ]
+    },
+    {
+      "id": "event-2",
+      "date": "2018-12-01",
+      "year": "2018",
+      "title": "DeepMind Introduces PlaNet",
+      "title_cn": "DeepMind发布PlaNet",
+      "description": "DeepMind releases PlaNet, a deep planning network for reinforcement learning that learns a world model from images and plans in latent space.",
+      "description_cn": "DeepMind发布PlaNet，一个用于强化学习的深度规划网络，从图像中学习世界模型并在潜在空间中进行规划。",
+      "category": "milestone",
+      "importance": "high",
+      "relatedItems": []
+    },
+    {
+      "id": "event-3",
+      "date": "2019-06-01",
+      "year": "2019",
+      "title": "Dreamer Algorithm Introduced",
+      "title_cn": "Dreamer算法发布",
+      "description": "The Dreamer algorithm is published, demonstrating that world models learned in latent space can solve long-horizon control tasks from pixels.",
+      "description_cn": "Dreamer算法发布，证明了在潜在空间学习的世界模型可以解决从像素出发的长时程控制任务。",
+      "category": "milestone",
+      "importance": "high",
+      "relatedItems": [
+        "dreamer-paper"
+      ]
+    },
+    {
+      "id": "event-4",
+      "date": "2019-11-01",
+      "year": "2019",
+      "title": "MuZero Published in Nature",
+      "title_cn": "MuZero在Nature发表",
+      "description": "DeepMind's MuZero is published, achieving superhuman performance in board games and Atari by learning a model entirely from self-play without knowing the rules.",
+      "description_cn": "DeepMind的MuZero发表，在不知道游戏规则的情况下，通过完全自我对弈学习模型，在棋盘游戏和Atari中实现超人类性能。",
+      "category": "milestone",
+      "importance": "high",
+      "relatedItems": [
+        "muzero-paper"
+      ]
+    },
+    {
+      "id": "event-5",
+      "date": "2020-06-01",
+      "year": "2020",
+      "title": "GPT-3 Demonstrates Emergent Capabilities",
+      "title_cn": "GPT-3展示涌现能力",
+      "description": "OpenAI releases GPT-3 with 175B parameters, demonstrating emergent world knowledge and reasoning capabilities in language models.",
+      "description_cn": "OpenAI发布175B参数的GPT-3，展示了语言模型中的涌现世界知识和推理能力。",
+      "category": "milestone",
+      "importance": "medium",
+      "relatedItems": []
+    },
+    {
+      "id": "event-6",
+      "date": "2021-06-01",
+      "year": "2021",
+      "title": "Decision Transformer Reframes RL",
+      "title_cn": "Decision Transformer重构强化学习",
+      "description": "Decision Transformer is published, framing reinforcement learning as a sequence modeling problem and inspiring new approaches to world model-based RL.",
+      "description_cn": "Decision Transformer发表，将强化学习框架为序列建模问题，启发了基于世界模型的强化学习新方法。",
+      "category": "paper",
+      "importance": "medium",
+      "relatedItems": [
+        "decision-transformer-paper"
+      ]
+    },
+    {
+      "id": "event-7",
+      "date": "2022-01-01",
+      "year": "2022",
+      "title": "DeepMind's Gato: A Generalist Agent",
+      "title_cn": "DeepMind的Gato：通用智能体",
+      "description": "DeepMind introduces Gato, a single generalist agent capable of performing hundreds of tasks across diverse environments with the same neural network weights.",
+      "description_cn": "DeepMind介绍Gato，一个通用智能体，能够使用相同的神经网络权重在多种环境中执行数百种任务。",
+      "category": "milestone",
+      "importance": "high",
+      "relatedItems": [
+        "gato-paper"
+      ]
+    },
+    {
+      "id": "event-8",
+      "date": "2022-04-01",
+      "year": "2022",
+      "title": "DALL-E 2 Unveiled",
+      "title_cn": "DALL-E 2发布",
+      "description": "OpenAI releases DALL-E 2, a text-to-image generation model that demonstrates strong understanding of visual concepts and relationships.",
+      "description_cn": "OpenAI发布DALL-E 2，一个文本到图像生成模型，展示了对视觉概念和关系的强理解能力。",
+      "category": "release",
+      "importance": "medium",
+      "relatedItems": []
+    },
+    {
+      "id": "event-9",
+      "date": "2022-09-01",
+      "year": "2022",
+      "title": "IRIS: Transformer World Models for RL",
+      "title_cn": "IRIS：用于强化学习的Transformer世界模型",
+      "description": "IRIS paper shows that transformer-based world models can achieve high sample efficiency in visual reinforcement learning, using discrete autoencoder representations.",
+      "description_cn": "IRIS论文表明基于Transformer的世界模型可以在视觉强化学习中实现高样本效率，使用离散自编码器表示。",
+      "category": "paper",
+      "importance": "medium",
+      "relatedItems": [
+        "iris-paper"
+      ]
+    },
+    {
+      "id": "event-10",
+      "date": "2022-11-30",
+      "year": "2022",
+      "title": "ChatGPT Launches to Public",
+      "title_cn": "ChatGPT向公众发布",
+      "description": "OpenAI launches ChatGPT, bringing large language models to mainstream users and sparking widespread interest in AI capabilities.",
+      "description_cn": "OpenAI推出ChatGPT，将大语言模型带给主流用户，引发了对AI能力的广泛兴趣。",
+      "category": "milestone",
+      "importance": "high",
+      "relatedItems": []
+    },
+    {
+      "id": "event-11",
+      "date": "2023-01-01",
+      "year": "2023",
+      "title": "DreamerV3 Masters Diverse Domains",
+      "title_cn": "DreamerV3掌握多样领域",
+      "description": "DreamerV3 is published, achieving strong performance across diverse domains from pixel inputs without domain-specific tuning, published in Nature.",
+      "description_cn": "DreamerV3发表，在从像素输入的多样领域上实现强大性能，无需领域特定调优，发表于Nature。",
+      "category": "paper",
+      "importance": "high",
+      "relatedItems": [
+        "dreamerv3-paper"
+      ]
+    },
+    {
+      "id": "event-12",
+      "date": "2023-03-14",
+      "year": "2023",
+      "title": "GPT-4 Released with Multimodal Capabilities",
+      "title_cn": "GPT-4发布，具备多模态能力",
+      "description": "OpenAI releases GPT-4, a large multimodal model with significantly improved reasoning and world understanding capabilities.",
+      "description_cn": "OpenAI发布GPT-4，一个具有显著改进推理和世界理解能力的大型多模态模型。",
+      "category": "release",
+      "importance": "high",
+      "relatedItems": []
+    },
+    {
+      "id": "event-13",
+      "date": "2023-06-01",
+      "year": "2023",
+      "title": "Meta AI Releases I-JEPA",
+      "title_cn": "Meta AI发布I-JEPA",
+      "description": "Meta AI releases I-JEPA, the first AI model based on Yann LeCun's JEPA architecture for more human-like self-supervised learning of image representations.",
+      "description_cn": "Meta AI发布I-JEPA，这是首个基于Yann LeCun的JEPA架构的AI模型，用于更像人类的自监督图像表示学习。",
+      "category": "release",
+      "importance": "high",
+      "relatedItems": [
+        "i-jepa-paper"
+      ]
+    },
+    {
+      "id": "event-14",
+      "date": "2023-06-01",
+      "year": "2023",
+      "title": "Runway Gen-2 for Video Generation",
+      "title_cn": "Runway Gen-2视频生成",
+      "description": "Runway releases Gen-2, a multimodal video generation system that can synthesize videos from text, images, or video clips.",
+      "description_cn": "Runway发布Gen-2，一个多模态视频生成系统，可以从文本、图像或视频片段合成视频。",
+      "category": "release",
+      "importance": "medium",
+      "relatedItems": []
+    },
+    {
+      "id": "event-15",
+      "date": "2023-09-01",
+      "year": "2023",
+      "title": "Wayve Introduces GAIA-1",
+      "title_cn": "Wayve发布GAIA-1",
+      "description": "Wayve introduces GAIA-1, a 9-billion parameter generative world model for autonomous driving that can generate realistic driving scenarios.",
+      "description_cn": "Wayve发布GAIA-1，一个90亿参数的自动驾驶生成式世界模型，可以生成真实的驾驶场景。",
+      "category": "release",
+      "importance": "high",
+      "relatedItems": [
+        "gaia-1-paper"
+      ]
+    },
+    {
+      "id": "event-16",
+      "date": "2023-11-21",
+      "year": "2023",
+      "title": "Stable Video Diffusion Open-Sourced",
+      "title_cn": "Stable Video Diffusion开源",
+      "description": "Stability AI releases Stable Video Diffusion, an open-source video generation model based on Stable Diffusion.",
+      "description_cn": "Stability AI发布Stable Video Diffusion，一个基于Stable Diffusion的开源视频生成模型。",
+      "category": "release",
+      "importance": "medium",
+      "relatedItems": []
+    },
+    {
+      "id": "event-17",
+      "date": "2023-12-01",
+      "year": "2023",
+      "title": "Google's VideoPoet for Zero-Shot Video",
+      "title_cn": "Google的VideoPoet零样本视频生成",
+      "description": "Google introduces VideoPoet, a large language model capable of zero-shot video generation from text, images, and video inputs.",
+      "description_cn": "Google介绍VideoPoet，一个能够从文本、图像和视频输入进行零样本视频生成的大型语言模型。",
+      "category": "paper",
+      "importance": "medium",
+      "relatedItems": [
+        "videopoet-paper"
+      ]
+    },
+    {
+      "id": "event-18",
+      "date": "2024-02-15",
+      "year": "2024",
+      "title": "OpenAI Announces Sora",
+      "title_cn": "OpenAI发布Sora",
+      "description": "OpenAI announces Sora, a text-to-video model capable of generating realistic videos up to one minute, sparking global discussion on video generation as world simulation.",
+      "description_cn": "OpenAI发布Sora，一个能够生成长达一分钟真实视频的文本到视频模型，引发全球关于视频生成作为世界模拟的讨论。",
+      "category": "milestone",
+      "importance": "high",
+      "relatedItems": [
+        "sora-report"
+      ]
+    },
+    {
+      "id": "event-19",
+      "date": "2024-02-15",
+      "year": "2024",
+      "title": "Google Releases Gemini 1.5 Pro",
+      "title_cn": "Google发布Gemini 1.5 Pro",
+      "description": "Google releases Gemini 1.5 Pro with up to 2 million token context window, enabling video understanding and long-context world model capabilities.",
+      "description_cn": "Google发布Gemini 1.5 Pro，上下文窗口高达200万token，支持视频理解和长上下文世界模型能力。",
+      "category": "release",
+      "importance": "high",
+      "relatedItems": []
+    },
+    {
+      "id": "event-20",
+      "date": "2024-06-17",
+      "year": "2024",
+      "title": "Runway Gen-3 Alpha Released",
+      "title_cn": "Runway Gen-3 Alpha发布",
+      "description": "Runway releases Gen-3 Alpha with significant improvements in video fidelity, consistency, and motion understanding.",
+      "description_cn": "Runway发布Gen-3 Alpha，在视频保真度、一致性和运动理解方面有显著提升。",
+      "category": "release",
+      "importance": "medium",
+      "relatedItems": []
+    },
+    {
+      "id": "event-21",
+      "date": "2024-07-29",
+      "year": "2024",
+      "title": "Meta Releases SAM 2",
+      "title_cn": "Meta发布SAM 2",
+      "description": "Meta AI releases SAM 2, extending the Segment Anything Model to video with state-of-the-art promptable segmentation capabilities.",
+      "description_cn": "Meta AI发布SAM 2，将Segment Anything模型扩展到视频，具有最先进的可提示分割能力。",
+      "category": "release",
+      "importance": "medium",
+      "relatedItems": []
+    },
+    {
+      "id": "event-22",
+      "date": "2025-01-06",
+      "year": "2025",
+      "title": "NVIDIA Launches Cosmos Platform",
+      "title_cn": "NVIDIA发布Cosmos平台",
+      "description": "NVIDIA launches Cosmos, a world foundation model platform for physical AI, providing pre-trained models for robotics and autonomous systems.",
+      "description_cn": "NVIDIA发布Cosmos，一个用于物理AI的世界基础模型平台，为机器人和自主系统提供预训练模型。",
+      "category": "milestone",
+      "importance": "high",
+      "relatedItems": [
+        "cosmos-paper"
+      ]
+    }
+  ]
+}

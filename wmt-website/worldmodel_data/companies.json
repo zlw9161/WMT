@@ -1,0 +1,492 @@
+{
+  "items": [
+    {
+      "id": "openai",
+      "category": "company",
+      "title": "OpenAI",
+      "title_cn": "OpenAI",
+      "description": "Leading AI research company developing Sora video generation model with world simulation capabilities. Founded with the goal of ensuring artificial general intelligence benefits all of humanity.",
+      "description_cn": "领先的AI研究公司，开发了具有世界模拟能力的Sora视频生成模型。成立的使命是确保通用人工智能造福全人类。",
+      "founded": "2015",
+      "headquarters": "San Francisco, USA",
+      "headquarters_cn": "美国旧金山",
+      "tags": [
+        "Video Generation",
+        "LLM",
+        "Multimodal"
+      ],
+      "tags_cn": [
+        "视频生成",
+        "大语言模型",
+        "多模态"
+      ],
+      "status": "active",
+      "website": "https://openai.com",
+      "keyModels": [
+        "Sora",
+        "GPT-4o",
+        "DALL-E 3",
+        "o1"
+      ],
+      "employees": "1500+",
+      "image": "/banners/openai-banner.png"
+    },
+    {
+      "id": "google-deepmind",
+      "category": "company",
+      "title": "Google DeepMind",
+      "title_cn": "Google DeepMind",
+      "description": "Google's AI research division formed by merging Google Brain and DeepMind. Pioneers in reinforcement learning, world models, and large-scale AI systems including Gemini and AlphaGo.",
+      "description_cn": "Google的AI研究部门，由Google Brain和DeepMind合并而成。在强化学习、世界模型和大规模AI系统（包括Gemini和AlphaGo）方面处于先驱地位。",
+      "founded": "2010 (DeepMind), 2023 (merged)",
+      "headquarters": "London, UK / Mountain View, USA",
+      "headquarters_cn": "英国伦敦 / 美国山景城",
+      "tags": [
+        "RL",
+        "World Models",
+        "LLM",
+        "Robotics"
+      ],
+      "tags_cn": [
+        "强化学习",
+        "世界模型",
+        "大语言模型",
+        "机器人"
+      ],
+      "status": "active",
+      "website": "https://deepmind.google",
+      "keyModels": [
+        "Gemini 1.5 Pro",
+        "AlphaGo",
+        "AlphaZero",
+        "MuZero",
+        "RT-2"
+      ],
+      "employees": "3000+",
+      "image": "/banners/deepmind-banner.png"
+    },
+    {
+      "id": "meta-ai",
+      "category": "company",
+      "title": "Meta AI",
+      "title_cn": "Meta AI",
+      "description": "Meta's artificial intelligence research division. Developed the Segment Anything Model (SAM) and advanced multimodal AI systems. Open-sources many of their models including Llama and SAM.",
+      "description_cn": "Meta的人工智能研究部门。开发了Segment Anything模型（SAM）和先进的多模态AI系统。开源了许多模型，包括Llama和SAM。",
+      "founded": "2013 (FAIR)",
+      "headquarters": "Menlo Park, USA",
+      "headquarters_cn": "美国门洛帕克",
+      "tags": [
+        "Multimodal",
+        "Open Source",
+        "Computer Vision"
+      ],
+      "tags_cn": [
+        "多模态",
+        "开源",
+        "计算机视觉"
+      ],
+      "status": "active",
+      "website": "https://ai.meta.com",
+      "keyModels": [
+        "SAM 2",
+        "Llama 3",
+        "I-JEPA",
+        "V-JEPA"
+      ],
+      "employees": "2000+",
+      "image": "/banners/meta-ai-banner.png"
+    },
+    {
+      "id": "nvidia",
+      "category": "company",
+      "title": "NVIDIA",
+      "title_cn": "英伟达",
+      "description": "World's leading GPU manufacturer and AI platform company. Develops Cosmos world foundation model platform for physical AI and autonomous systems. Provides the hardware backbone for most AI training worldwide.",
+      "description_cn": "全球领先的GPU制造商和AI平台公司。开发了用于物理AI和自主系统的Cosmos世界基础模型平台。为全球大多数AI训练提供硬件基础。",
+      "founded": "1993",
+      "headquarters": "Santa Clara, USA",
+      "headquarters_cn": "美国圣克拉拉",
+      "tags": [
+        "GPU",
+        "Physical AI",
+        "Autonomous Systems",
+        "Robotics"
+      ],
+      "tags_cn": [
+        "GPU",
+        "物理AI",
+        "自主系统",
+        "机器人"
+      ],
+      "status": "active",
+      "website": "https://nvidia.com",
+      "keyModels": [
+        "Cosmos",
+        "NVIDIA World Model (NWM)",
+        "Isaac Sim"
+      ],
+      "employees": "30000+",
+      "image": "/banners/nvidia-banner.png"
+    },
+    {
+      "id": "wayve",
+      "category": "company",
+      "title": "Wayve",
+      "title_cn": "Wayve",
+      "description": "London-based autonomous driving startup developing embodied AI for self-driving cars using end-to-end deep learning and world models. First to test autonomous vehicles on public roads in London.",
+      "description_cn": "总部位于伦敦的自动驾驶初创公司，使用端到端深度学习和世界模型开发具身AI用于自动驾驶汽车。首家在伦敦公共道路上测试自动驾驶车辆的公司。",
+      "founded": "2017",
+      "headquarters": "London, UK",
+      "headquarters_cn": "英国伦敦",
+      "tags": [
+        "Autonomous Driving",
+        "Embodied AI",
+        "World Models"
+      ],
+      "tags_cn": [
+        "自动驾驶",
+        "具身AI",
+        "世界模型"
+      ],
+      "status": "active",
+      "website": "https://wayve.ai",
+      "keyModels": [
+        "GAIA-1",
+        "LINGO-1",
+        "PRISM-1"
+      ],
+      "employees": "300+",
+      "image": "/banners/wayve-banner.png"
+    },
+    {
+      "id": "tesla",
+      "category": "company",
+      "title": "Tesla",
+      "title_cn": "特斯拉",
+      "description": "Electric vehicle and AI company developing Full Self-Driving (FSD) capabilities using neural networks and world models. Elon Musk has emphasized video generation as key to solving autonomous driving.",
+      "description_cn": "电动汽车和AI公司，使用神经网络和世界模型开发完全自动驾驶（FSD）能力。马斯克强调视频生成是解决自动驾驶的关键。",
+      "founded": "2003",
+      "headquarters": "Austin, USA",
+      "headquarters_cn": "美国奥斯汀",
+      "tags": [
+        "Autonomous Driving",
+        "Computer Vision",
+        "Robotics"
+      ],
+      "tags_cn": [
+        "自动驾驶",
+        "计算机视觉",
+        "机器人"
+      ],
+      "status": "active",
+      "website": "https://tesla.com/ai",
+      "keyModels": [
+        "Tesla FSD",
+        "Optimus Robot",
+        "Dojo"
+      ],
+      "employees": "140000+",
+      "image": "/banners/tesla-banner.png"
+    },
+    {
+      "id": "runway",
+      "category": "company",
+      "title": "Runway",
+      "title_cn": "Runway",
+      "description": "Applied AI research company building next-generation creativity tools. Developed Gen-3 Alpha, a state-of-the-art video generation model. Focuses on bringing the multi-modal capabilities of foundational models to art and entertainment.",
+      "description_cn": "应用AI研究公司，构建下一代创意工具。开发了Gen-3 Alpha，一个最先进的视频生成模型。专注于将基础模型的多模态能力带到艺术和娱乐领域。",
+      "founded": "2018",
+      "headquarters": "New York, USA",
+      "headquarters_cn": "美国纽约",
+      "tags": [
+        "Video Generation",
+        "Creative AI",
+        "Diffusion Models"
+      ],
+      "tags_cn": [
+        "视频生成",
+        "创意AI",
+        "扩散模型"
+      ],
+      "status": "active",
+      "website": "https://runwayml.com",
+      "keyModels": [
+        "Gen-3 Alpha",
+        "Gen-2",
+        "Runway Act-One"
+      ],
+      "employees": "200+",
+      "image": "/banners/runway-banner.png"
+    },
+    {
+      "id": "pika-labs",
+      "category": "company",
+      "title": "Pika Labs",
+      "title_cn": "Pika Labs",
+      "description": "AI video generation startup that creates tools for creating and editing videos with AI. Developed Pika 1.5 with advanced video generation capabilities.",
+      "description_cn": "AI视频生成初创公司，创建使用AI制作和编辑视频的工具。开发了Pika 1.5，具有先进的视频生成能力。",
+      "founded": "2023",
+      "headquarters": "Palo Alto, USA",
+      "headquarters_cn": "美国帕洛阿尔托",
+      "tags": [
+        "Video Generation",
+        "Creative AI",
+        "Generative AI"
+      ],
+      "tags_cn": [
+        "视频生成",
+        "创意AI",
+        "生成式AI"
+      ],
+      "status": "active",
+      "website": "https://pika.art",
+      "keyModels": [
+        "Pika 1.5",
+        "Pika 1.0"
+      ],
+      "employees": "50+",
+      "image": "/banners/pika-labs-banner.png"
+    },
+    {
+      "id": "stability-ai",
+      "category": "company",
+      "title": "Stability AI",
+      "title_cn": "Stability AI",
+      "description": "Open-source generative AI company best known for Stable Diffusion. Develops open-access models for image, video, and audio generation including Stable Video Diffusion.",
+      "description_cn": "开源生成式AI公司，以Stable Diffusion闻名。开发用于图像、视频和音频生成的开放获取模型，包括Stable Video Diffusion。",
+      "founded": "2019",
+      "headquarters": "London, UK",
+      "headquarters_cn": "英国伦敦",
+      "tags": [
+        "Open Source",
+        "Image Generation",
+        "Video Generation"
+      ],
+      "tags_cn": [
+        "开源",
+        "图像生成",
+        "视频生成"
+      ],
+      "status": "active",
+      "website": "https://stability.ai",
+      "keyModels": [
+        "Stable Diffusion 3",
+        "Stable Video Diffusion",
+        "Stable Cascade"
+      ],
+      "employees": "200+",
+      "image": "/banners/stability-ai-banner.png"
+    },
+    {
+      "id": "anthropic",
+      "category": "company",
+      "title": "Anthropic",
+      "title_cn": "Anthropic",
+      "description": "AI safety company founded by former OpenAI researchers. Develops Claude, a large language model focused on being helpful, harmless, and honest. Pioneers in constitutional AI and AI alignment.",
+      "description_cn": "由前OpenAI研究人员创立的AI安全公司。开发Claude大语言模型，专注于有益、无害和诚实。在宪法AI和AI对齐方面处于先驱地位。",
+      "founded": "2021",
+      "headquarters": "San Francisco, USA",
+      "headquarters_cn": "美国旧金山",
+      "tags": [
+        "LLM",
+        "AI Safety",
+        "Constitutional AI"
+      ],
+      "tags_cn": [
+        "大语言模型",
+        "AI安全",
+        "宪法AI"
+      ],
+      "status": "active",
+      "website": "https://anthropic.com",
+      "keyModels": [
+        "Claude 3.5 Sonnet",
+        "Claude 3 Opus",
+        "Claude 3 Haiku"
+      ],
+      "employees": "800+",
+      "image": "/banners/anthropic-banner.png"
+    },
+    {
+      "id": "microsoft-research",
+      "category": "company",
+      "title": "Microsoft Research",
+      "title_cn": "微软研究院",
+      "description": "Microsoft's research division conducting cutting-edge research across AI, systems, and human-computer interaction. Major partner of OpenAI and contributor to large multimodal models.",
+      "description_cn": "微软的研究部门，在AI、系统和人机交互方面进行前沿研究。OpenAI的主要合作伙伴，对大型多模态模型做出了重要贡献。",
+      "founded": "1991",
+      "headquarters": "Redmond, USA",
+      "headquarters_cn": "美国雷德蒙德",
+      "tags": [
+        "LLM",
+        "Multimodal",
+        "Research"
+      ],
+      "tags_cn": [
+        "大语言模型",
+        "多模态",
+        "研究"
+      ],
+      "status": "active",
+      "website": "https://research.microsoft.com",
+      "keyModels": [
+        "Phi-3",
+        "Kosmos-2",
+        " Florence"
+      ],
+      "employees": "1000+",
+      "image": "/banners/microsoft-research-banner.png"
+    },
+    {
+      "id": "baair",
+      "category": "company",
+      "title": "Berkeley AI Research (BAIR)",
+      "title_cn": "伯克利人工智能研究实验室",
+      "description": "University of California, Berkeley's AI research lab. Pioneered work in reinforcement learning, robotics, and world models including the Dreamer algorithm series.",
+      "description_cn": "加州大学伯克利分校的AI研究实验室。在强化学习、机器人和世界模型方面开创了先河，包括Dreamer算法系列。",
+      "founded": "2014",
+      "headquarters": "Berkeley, USA",
+      "headquarters_cn": "美国伯克利",
+      "tags": [
+        "RL",
+        "Robotics",
+        "World Models",
+        "Research"
+      ],
+      "tags_cn": [
+        "强化学习",
+        "机器人",
+        "世界模型",
+        "研究"
+      ],
+      "status": "active",
+      "website": "https://bair.berkeley.edu",
+      "keyModels": [
+        "DreamerV3",
+        "UniSim",
+        "RT-1"
+      ],
+      "employees": "200+",
+      "image": "/banners/bair-banner.png"
+    },
+    {
+      "id": "stanford-hai",
+      "category": "company",
+      "title": "Stanford HAI",
+      "title_cn": "斯坦福以人为本AI研究院",
+      "description": "Stanford Institute for Human-Centered AI. Conducts interdisciplinary research on AI's impact on humanity, including world models, robotics, and AI safety.",
+      "description_cn": "斯坦福以人为本AI研究院。进行AI对人类影响的跨学科研究，包括世界模型、机器人和AI安全。",
+      "founded": "2019",
+      "headquarters": "Stanford, USA",
+      "headquarters_cn": "美国斯坦福",
+      "tags": [
+        "AI Safety",
+        "Research",
+        "Human-Centered AI"
+      ],
+      "tags_cn": [
+        "AI安全",
+        "研究",
+        "以人为本AI"
+      ],
+      "status": "active",
+      "website": "https://hai.stanford.edu",
+      "keyModels": [
+        "Alpaca",
+        "ControlNet",
+        "ACT"
+      ],
+      "employees": "100+",
+      "image": "/banners/stanford-hai-banner.png"
+    },
+    {
+      "id": "tsingkee",
+      "category": "company",
+      "title": "Tsingkee",
+      "title_cn": "清科",
+      "description": "Chinese AI company focused on developing large-scale world models and autonomous driving technology. Known for their work on end-to-end autonomous driving systems.",
+      "description_cn": "中国AI公司，专注于开发大规模世界模型和自动驾驶技术。以其端到端自动驾驶系统而闻名。",
+      "founded": "2022",
+      "headquarters": "Beijing, China",
+      "headquarters_cn": "中国北京",
+      "tags": [
+        "Autonomous Driving",
+        "World Models",
+        "Computer Vision"
+      ],
+      "tags_cn": [
+        "自动驾驶",
+        "世界模型",
+        "计算机视觉"
+      ],
+      "status": "active",
+      "website": "https://tsingkee.com",
+      "keyModels": [
+        "Tsingkee World Model",
+        "DriveGPT"
+      ],
+      "employees": "100+",
+      "image": "/banners/tsingkee-banner.png"
+    },
+    {
+      "id": "alibaba-damo",
+      "category": "company",
+      "title": "Alibaba DAMO Academy",
+      "title_cn": "阿里巴巴达摩院",
+      "description": "Alibaba's research academy focused on fundamental technology research including AI, quantum computing, and autonomous driving. Developed Qwen series of large language models.",
+      "description_cn": "阿里巴巴的研究学院，专注于基础技术研究，包括AI、量子计算和自动驾驶。开发了Qwen系列大语言模型。",
+      "founded": "2017",
+      "headquarters": "Hangzhou, China",
+      "headquarters_cn": "中国杭州",
+      "tags": [
+        "LLM",
+        "Multimodal",
+        "Research"
+      ],
+      "tags_cn": [
+        "大语言模型",
+        "多模态",
+        "研究"
+      ],
+      "status": "active",
+      "website": "https://damo.alibaba.com",
+      "keyModels": [
+        "Qwen2-VL",
+        "Qwen-Max",
+        "Qwen-Audio"
+      ],
+      "employees": "1000+",
+      "image": "/banners/alibaba-damo-banner.png"
+    },
+    {
+      "id": "baidu-research",
+      "category": "company",
+      "title": "Baidu Research",
+      "title_cn": "百度研究院",
+      "description": "Baidu's research division advancing AI technologies including autonomous driving through Apollo platform and large language models. Pioneer in China's AI development.",
+      "description_cn": "百度的研究部门，推进AI技术发展，包括通过Apollo平台的自动驾驶和大语言模型。中国AI发展的先驱。",
+      "founded": "2014",
+      "headquarters": "Beijing, China",
+      "headquarters_cn": "中国北京",
+      "tags": [
+        "Autonomous Driving",
+        "LLM",
+        "Research"
+      ],
+      "tags_cn": [
+        "自动驾驶",
+        "大语言模型",
+        "研究"
+      ],
+      "status": "active",
+      "website": "https://research.baidu.com",
+      "keyModels": [
+        "ERNIE 4.0",
+        "Apollo",
+        "PaddlePaddle"
+      ],
+      "employees": "2000+",
+      "image": "/banners/baidu-research-banner.png"
+    }
+  ]
+}
