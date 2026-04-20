@@ -1,10 +1,21 @@
 # WorldModel Tracker
 
+![WMT Version](https://img.shields.io/badge/WMT-v0.0.1-0ea5e9)
+
+## Version
+
+- Current release: 0.0.1
+- Previous release: 0.0.0
+- Frontend package name: wmt-web
+- Change history: [CHANGELOG.md](CHANGELOG.md)
+
 ## Overview
 
 WorldModel Tracker is a bilingual static website for monitoring the world model ecosystem in AI, including companies, model releases, papers, timeline events, and recent updates.
 
 The frontend is built with Vite, React, and TypeScript. It uses HashRouter for static-friendly routing, which makes the project easy to build into `dist/` and deploy with Nginx or any other static hosting service.
+
+The frontend application package is named `wmt-web` in `wmt-website/app/package.json`.
 
 ## Development Team
 

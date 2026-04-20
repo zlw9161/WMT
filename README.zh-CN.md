@@ -1,10 +1,21 @@
 # 世界模型跟踪器
 
+![WMT 版本](https://img.shields.io/badge/WMT-v0.0.1-0ea5e9)
+
+## 版本信息
+
+- 当前版本：0.0.1
+- 上一版本：0.0.0
+- 前端应用包名：wmt-web
+- 变更记录：[CHANGELOG.md](CHANGELOG.md)
+
 ## 项目简介
 
 本项目聚焦 AI 世界模型领域的信息整理与可视化展示，面向研究者、开发者和行业观察者，提供统一的双语浏览入口。
 
 当前网站前端基于 Vite + React + TypeScript 构建，使用 HashRouter 进行静态路由，适合直接构建为 dist/ 后部署到 Nginx 或其他静态托管环境。
+
+前端应用在 `wmt-website/app/package.json` 中的包名为 `wmt-web`。
 
 ## 开发团队
 

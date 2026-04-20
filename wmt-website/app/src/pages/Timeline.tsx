@@ -21,12 +21,35 @@ const importanceSize: Record<string, number> = {
   low: 8,
 };
 
-const periods = [
+const basePeriods = [
   { range: '2018-2019', labelEn: 'Early Concepts', labelCn: '早期概念', start: 2018, end: 2019 },
   { range: '2020-2021', labelEn: 'Foundation Era', labelCn: '基础时代', start: 2020, end: 2021 },
   { range: '2022-2023', labelEn: 'Breakthrough Period', labelCn: '突破时期', start: 2022, end: 2023 },
   { range: '2024-2025', labelEn: 'Expansion', labelCn: '扩展阶段', start: 2024, end: 2025 },
 ];
+
+const buildPeriods = (events: TimelineEvent[]) => {
+  const years = events
+    .map((ev) => parseInt(ev.year, 10))
+    .filter((year) => Number.isFinite(year));
+
+  const maxYear = years.length > 0 ? Math.max(...years) : 2025;
+  const periods = [...basePeriods];
+
+  // Auto-extend timeline periods so new years (e.g. 2026+) are visible without code changes.
+  for (let start = 2026; start <= maxYear; start += 2) {
+    const end = start + 1;
+    periods.push({
+      range: `${start}-${end}`,
+      labelEn: 'Latest Frontier',
+      labelCn: '前沿进展',
+      start,
+      end,
+    });
+  }
+
+  return periods;
+};
 
 function TimelineNode({ color, importance }: { color: string; importance: string }) {
   const size = importanceSize[importance] || 12;
@@ -111,6 +134,7 @@ export default function Timeline() {
 
   // Group events by period
   const groupedEvents = useMemo(() => {
+    const periods = buildPeriods(timelineEvents);
     return periods.map(period => {
       const events = timelineEvents.filter(ev => {
         const year = parseInt(ev.year);

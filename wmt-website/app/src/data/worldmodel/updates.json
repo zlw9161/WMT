@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "id": "update-13",
+      "date": "2026-04-16",
+      "title": "WAV Model Introduced for Implicit Long-Horizon Planning",
+      "title_cn": "WAV 模型发布：用于隐式长时程规划",
+      "source": "arXiv",
+      "sourceLevel": "primary",
+      "category": "publication",
+      "url": "https://arxiv.org/abs/2604.14732",
+      "summary": "The World-Value-Action (WAV) model is published on arXiv, proposing a unified world-model framework for vision-language-action systems with implicit planning.",
+      "summary_cn": "World-Value-Action（WAV）模型在 arXiv 发布，提出了一个面向视觉-语言-动作系统的统一世界模型框架，并支持隐式规划。"
+    },
+    {
+      "id": "update-14",
+      "date": "2026-04-15",
+      "title": "HY-World 2.0 Released with Open-Source World Modeling Stack",
+      "title_cn": "HY-World 2.0 发布，提供开源世界建模栈",
+      "source": "arXiv",
+      "sourceLevel": "primary",
+      "category": "release",
+      "url": "https://arxiv.org/abs/2604.14268",
+      "summary": "HY-World 2.0 is published on arXiv with project page and code release, covering multi-modal 3D world reconstruction, generation, and simulation.",
+      "summary_cn": "HY-World 2.0 在 arXiv 发布，并附带项目页与代码开源，覆盖多模态 3D 世界重建、生成与模拟。"
+    },
+    {
+      "id": "update-15",
+      "date": "2026-04-16",
+      "title": "G-RSSM Proposes Graph-Structured World Models for Network Dynamics",
+      "title_cn": "G-RSSM 提出面向网络动力学的图结构世界模型",
+      "source": "arXiv",
+      "sourceLevel": "primary",
+      "category": "publication",
+      "url": "https://arxiv.org/abs/2604.14811",
+      "summary": "G-RSSM introduces a graph-structured recurrent state-space world model trained from offline trajectories for imagined-rollout policy learning.",
+      "summary_cn": "G-RSSM 提出图结构循环状态空间世界模型，可基于离线轨迹进行训练并支持想象 rollout 的策略学习。"
+    },
+    {
       "id": "update-1",
       "date": "2025-01-06",
       "title": "NVIDIA Launches Cosmos World Foundation Model Platform",
