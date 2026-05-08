@@ -29,3 +29,8 @@ yarn-error.log*
 .env
 .env.*
 !.env.example
+
+# Local databases
+wmt-backend/*.db
+wmt-backend/*.sqlite
+wmt-backend/*.sqlite3
