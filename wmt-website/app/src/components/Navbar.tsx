@@ -2,9 +2,11 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { uiText } from '@/data/uiText';
+import { useAuth } from '@/hooks/useAuth';
 
 const Navbar: React.FC = () => {
   const { lang, toggleLang } = useLanguage();
+  const { user, logout } = useAuth();
   const location = useLocation();
   const t = uiText[lang];
 
@@ -12,6 +14,7 @@ const Navbar: React.FC = () => {
     { path: '/', label: t.nav_home },
     { path: '/tracking', label: t.nav_tracking },
     { path: '/timeline', label: t.nav_timeline },
+    { path: '/globe', label: t.nav_globe },
     { path: '/about', label: t.nav_about },
   ];
 
@@ -80,29 +83,65 @@ const Navbar: React.FC = () => {
         ))}
       </div>
 
-      {/* Language Toggle */}
-      <button
-        onClick={toggleLang}
-        className="flex items-center justify-center w-[48px] h-[32px] rounded-full text-[12px] font-semibold cursor-pointer transition-all duration-200"
-        style={{
-          border: '1px solid rgba(255, 255, 255, 0.2)',
-          background: 'rgba(255, 255, 255, 0.05)',
-          color: '#00ffff',
-          fontFamily: "'Inter', sans-serif",
-        }}
-        onMouseEnter={(e) => {
-          e.currentTarget.style.background = 'rgba(0, 255, 255, 0.15)';
-          e.currentTarget.style.borderColor = 'rgba(0, 255, 255, 0.4)';
-          e.currentTarget.style.boxShadow = '0 0 10px rgba(0, 255, 255, 0.3)';
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.background = 'rgba(255, 255, 255, 0.05)';
-          e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.2)';
-          e.currentTarget.style.boxShadow = 'none';
-        }}
-      >
-        {lang === 'en' ? '中' : 'EN'}
-      </button>
+      <div className="flex items-center gap-3">
+        {user ? (
+          <>
+            <Link
+              to="/profile"
+              className="text-[13px] no-underline"
+              style={{ color: '#ffffff' }}
+            >
+              {user.username}
+            </Link>
+            <button
+              onClick={logout}
+              className="h-[32px] px-3 rounded-full text-[12px] font-semibold cursor-pointer"
+              style={{
+                border: '1px solid rgba(255, 255, 255, 0.2)',
+                background: 'rgba(255, 0, 128, 0.15)',
+                color: '#ff9dcf',
+              }}
+            >
+              Logout
+            </button>
+          </>
+        ) : (
+          <Link
+            to="/login"
+            className="h-[32px] px-3 rounded-full text-[12px] font-semibold no-underline flex items-center"
+            style={{
+              border: '1px solid rgba(255, 255, 255, 0.2)',
+              background: 'rgba(255, 255, 255, 0.05)',
+              color: '#00ffff',
+            }}
+          >
+            Login
+          </Link>
+        )}
+
+        <button
+          onClick={toggleLang}
+          className="flex items-center justify-center w-[48px] h-[32px] rounded-full text-[12px] font-semibold cursor-pointer transition-all duration-200"
+          style={{
+            border: '1px solid rgba(255, 255, 255, 0.2)',
+            background: 'rgba(255, 255, 255, 0.05)',
+            color: '#00ffff',
+            fontFamily: "'Inter', sans-serif",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.background = 'rgba(0, 255, 255, 0.15)';
+            e.currentTarget.style.borderColor = 'rgba(0, 255, 255, 0.4)';
+            e.currentTarget.style.boxShadow = '0 0 10px rgba(0, 255, 255, 0.3)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.background = 'rgba(255, 255, 255, 0.05)';
+            e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.2)';
+            e.currentTarget.style.boxShadow = 'none';
+          }}
+        >
+          {lang === 'en' ? '中' : 'EN'}
+        </button>
+      </div>
     </nav>
   );
 };

@@ -258,6 +258,70 @@ Follow this order:
 
 ---
 
+## 5. Deploy to http://www.mls-home.com:3000/wmt (without affecting :1311)
+
+Use a scoped path-based deployment: add only `/wmt` locations in the server block listening on port `3000`, and do not modify any server block listening on `1311`.
+
+### 5.1 Build and prepare static files
+
+```bash
+cd /data/PeCoLab/WMT/wmt-website/app
+npm ci
+npm run build
+```
+
+```bash
+sudo mkdir -p /var/www/wmt
+sudo rsync -av --delete dist/ /var/www/wmt/
+```
+
+### 5.2 Backup current Nginx config
+
+```bash
+sudo cp -a /etc/nginx /etc/nginx.backup.$(date +%F-%H%M%S)
+```
+
+### 5.3 Add `/wmt` routes in the `:3000` server block
+
+Use the template in this repository:
+
+- `docs/nginx-wmt-subpath-3000.conf`
+
+Important behavior:
+
+- redirect `/wmt` to `/wmt/`
+- serve static files from `alias /var/www/wmt/`
+- fallback to `/wmt/index.html`
+
+### 5.4 Validate and reload Nginx
+
+```bash
+sudo nginx -t
+sudo systemctl reload nginx
+```
+
+### 5.5 Verify both services
+
+```bash
+curl -I http://www.mls-home.com:3000/wmt/
+curl -I http://www.mls-home.com:1311/
+```
+
+Expected result:
+
+- `:3000/wmt/` returns 200
+- `:1311` remains unchanged
+
+### 5.6 Rollback if needed
+
+```bash
+sudo cp -a /etc/nginx.backup.<timestamp>/* /etc/nginx/
+sudo nginx -t
+sudo systemctl reload nginx
+```
+
+---
+
 ## 5. Confirmed Facts About the Current Project
 
 - The project is a pure frontend static site

@@ -11,6 +11,7 @@ const Footer: React.FC = () => {
     { path: '/', label: t.nav_home },
     { path: '/tracking', label: t.nav_tracking },
     { path: '/timeline', label: t.nav_timeline },
+    { path: '/globe', label: t.nav_globe },
     { path: '/about', label: t.nav_about },
   ];
 

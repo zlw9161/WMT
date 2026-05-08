@@ -5,6 +5,20 @@ All notable changes to this project are documented in this file.
 The format is based on Keep a Changelog,
 and this project follows Semantic Versioning.
 
+## [0.0.2] - 2026-05-08
+
+### Added
+- Added Phase 1 backend scaffold (`wmt-backend`) with FastAPI, SQLAlchemy, Alembic, and auth/user endpoints.
+- Added frontend authentication flow: login/register/profile pages, protected route, and auth hook.
+- Added development API setup with Vite proxy and shared Conda environment file.
+
+### Changed
+- Upgraded frontend package version from `0.0.1` to `0.0.2`.
+- Updated local auth and API wiring for end-to-end register/login/me flow in development.
+
+### Fixed
+- Fixed API path and dev proxy issues that caused `Not Found`/`Failed to fetch` during auth requests.
+
 ## [0.0.1] - 2026-04-20
 
 ### Added
